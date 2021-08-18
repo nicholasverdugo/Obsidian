@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JTML-Log OLD (7-26;8-11).md",
+            "file": "2021-08-18.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JTML-Log OLD (7-26;8-11).md",
+                "file": "2021-08-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,8 +96,9 @@
   },
   "active": "99ab58fc89ed380e",
   "lastOpenFiles": [
-    "JTML-Log.md",
     "2021-08-18.md",
+    "JTML-Log OLD (7-26;8-11).md",
+    "JTML-Log.md",
     "Untitled.md"
   ]
 }

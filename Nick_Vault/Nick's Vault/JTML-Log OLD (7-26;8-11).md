@@ -161,12 +161,3 @@ use opencv to display an image (image.tif) before segmentation, and then segment
 need to use libtorch to create a tensor from the tif file, then pass that into the module.forward function.
 Point CMake to OpenCVConfig.cmake, may need to redownload a fresh version of OpenCV from github.
 
-# 8/11
-
-Building JTML with CMake, automatic GPU detection is failing. 
-Fix: N/A - GTX 460 cannot be used with CUDA 10.2, requires driver of version 441.22 or more, this card has 391.22 on it.
-
-Other than that though, the CMake build works and runs. 
-
-Going to work with what I was working on previously, getting familiar with libtorch
-
