@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JTML-Log.md",
+            "file": "2021-08-18.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JTML-Log.md",
+                "file": "2021-08-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,6 +77,14 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "30a8e1d615e33d8e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -88,6 +96,8 @@
   },
   "active": "99ab58fc89ed380e",
   "lastOpenFiles": [
+    "2021-08-18.md",
+    "JTML-Log.md",
     "Untitled.md"
   ]
 }
