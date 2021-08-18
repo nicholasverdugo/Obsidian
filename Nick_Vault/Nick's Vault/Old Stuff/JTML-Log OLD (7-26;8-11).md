@@ -154,7 +154,7 @@ Notes:
 Error(s):
 entry point cudnnSetRNNProjectionLayers could not be located in the DLL torch_cuda.dll - FIXED - correct DLLs were placed in the debug folder, from the libtorch download
 
-# 8/11
+# 8/12
 
 example-app was built, To-do for next time:
 use opencv to display an image (image.tif) before segmentation, and then segment it, then display after
