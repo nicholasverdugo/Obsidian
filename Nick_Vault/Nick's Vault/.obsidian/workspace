@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-18.md",
+            "file": "Daily Notes/JTML Log/8-18.md",
             "mode": "source"
           }
         }
@@ -59,26 +59,9 @@
     "type": "split",
     "children": [
       {
-        "id": "f801e2aab8dc53bc",
+        "id": "9ad0c5c53fba2496",
         "type": "tabs",
         "children": [
-          {
-            "id": "43422b6728a2ae05",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2021-08-18.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "30a8e1d615e33d8e",
             "type": "leaf",
@@ -88,14 +71,39 @@
             }
           }
         ]
+      },
+      {
+        "id": "f801e2aab8dc53bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43422b6728a2ae05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/JTML Log/8-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "99ab58fc89ed380e",
   "lastOpenFiles": [
+    "Daily Notes/JTML Log/8-18.md",
+    "Daily Notes/2021-08-18.md",
+    "JTML-note.md",
     "2021-08-18.md",
     "JTML-Log OLD (7-26;8-11).md",
     "JTML-Log.md",
