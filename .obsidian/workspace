@@ -1,15 +1,26 @@
 {
   "main": {
-    "id": "fcd925fcde127ef4",
+    "id": "33e1fe80121fdbe5",
     "type": "split",
     "children": [
       {
-        "id": "99ab58fc89ed380e",
+        "id": "b18f49520f66e882",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-08-24.md",
+            "file": "Daily Notes/2021-08-24.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "af0d5965cc48f786",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
             "mode": "source"
           }
         }
@@ -18,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dd295ffa0bf28a2d",
+    "id": "308c7223fac8ca57",
     "type": "split",
     "children": [
       {
-        "id": "2e9edae5f9ed413b",
+        "id": "30a5f31a55788240",
         "type": "tabs",
         "children": [
           {
-            "id": "a4066d4ef42ff372",
+            "id": "45b0a04cdad106ee",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +45,7 @@
             }
           },
           {
-            "id": "31db711539286ea9",
+            "id": "c3a24b53932b0db1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,37 +63,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229
+    "width": 300
   },
   "right": {
-    "id": "2f5b33e8c6df295a",
+    "id": "f7b5f1d89565824d",
     "type": "split",
     "children": [
       {
-        "id": "9ad0c5c53fba2496",
+        "id": "bd9355d851f9fa15",
         "type": "tabs",
         "children": [
           {
-            "id": "30a8e1d615e33d8e",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "f801e2aab8dc53bc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "43422b6728a2ae05",
+            "id": "99b2b2155c359441",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-08-24.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,23 +89,25 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "1aa77f8052960925",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "99ab58fc89ed380e",
+  "active": "af0d5965cc48f786",
   "lastOpenFiles": [
-    "2021-08-24.md",
-    "Daily Notes/2021-08-18.md",
-    "2021-08-18.md",
-    "Old Stuff/JTML-Log OLD (7-26;8-11).md",
-    "Daily Notes/JTML Log/8-18.md",
-    "JTML-note.md",
-    "JTML-Log OLD (7-26;8-11).md",
-    "JTML-Log.md",
-    "Untitled.md"
+    "conflict-files-obsidian-git.md",
+    "Daily Notes/2021-08-24.md"
   ]
 }
