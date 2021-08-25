@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-08-24.md",
+            "file": "Daily Notes/2021-08-25.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-08-24.md",
+                "file": "Daily Notes/2021-08-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +96,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/2021-08-25.md",
     "Daily Notes/2021-08-24.md",
     "Daily Notes/2021-08-18.md",
     "Daily Notes/2021-08-19.md",
