@@ -1,7 +1,7 @@
 # JTML Notes
 
 
-## updates
+## class
 
 
 ### Useful Links
