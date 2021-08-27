@@ -80,6 +80,24 @@
             }
           },
           {
+            "id": "1f1d0b80714cc1d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b26b79ee6a683470",
+        "type": "tabs",
+        "children": [
+          {
             "id": "1aa77f8052960925",
             "type": "leaf",
             "state": {
@@ -91,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
