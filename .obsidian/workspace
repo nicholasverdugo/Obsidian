@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-08-27.md",
+            "file": "Templates/Class Notes Template.md",
             "mode": "source"
           }
         }
@@ -63,23 +63,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99b2b2155c359441",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/2021-08-27.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "1f1d0b80714cc1d3",
             "type": "leaf",
             "state": {
@@ -90,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b26b79ee6a683470",
@@ -113,6 +95,8 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Templates/Untitled.md",
+    "Fall 2021 UF/Untitled.md",
     "Daily Notes/2021-08-27.md",
     "Daily Notes/2021-08-25.md",
     "Daily Notes/2021-08-24.md",
@@ -120,7 +104,6 @@
     "Daily Notes/2021-08-18.md",
     "Old Stuff/JTML-Log OLD (7-26;8-11).md",
     "Templates/Daily Note Template.md",
-    "cost function.md",
-    "conflict-files-obsidian-git.md"
+    "cost function.md"
   ]
 }
