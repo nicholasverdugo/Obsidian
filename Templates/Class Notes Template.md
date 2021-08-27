@@ -1,4 +1,4 @@
-# Notes
+# @(today)
 ### Class Tags:
 
 ## Assignments to-do
