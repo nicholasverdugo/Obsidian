@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-08-27.md",
+            "file": "Daily Notes/2021-08-30.md",
             "mode": "source"
           }
         }
@@ -72,6 +72,31 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "692cdbcc64b168e2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/2021-08-30.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9aff65ce71754d3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       },
@@ -83,7 +108,7 @@
             "id": "1aa77f8052960925",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "empty",
               "state": {}
             }
           }
@@ -95,6 +120,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/2021-08-30.md",
     "Daily Notes/2021-08-27.md",
     "Templates/Class Notes Template.md",
     "Untitled.md",
@@ -103,7 +129,6 @@
     "Fall 2021 UF/Untitled.md",
     "Daily Notes/2021-08-25.md",
     "Daily Notes/2021-08-24.md",
-    "Daily Notes/2021-08-19.md",
-    "Daily Notes/2021-08-18.md"
+    "Daily Notes/2021-08-19.md"
   ]
 }
