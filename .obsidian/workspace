@@ -52,14 +52,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 172.99999809265137
   },
   "right": {
     "id": "f7b5f1d89565824d",
     "type": "split",
     "children": [
       {
-        "id": "bd9355d851f9fa15",
+        "id": "084da2962f30024a",
         "type": "tabs",
         "children": [
           {
@@ -89,26 +89,18 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "4bdfe2d4b1518229",
+        "type": "tabs",
+        "children": [
           {
             "id": "d9aff65ce71754d3",
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "b26b79ee6a683470",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1aa77f8052960925",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
               "state": {}
             }
           }
@@ -121,6 +113,7 @@
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
     "Class Notes/MAD4401 Ch.2.md",
+    "Images/Pasted image 20210830152304.png",
     "Templates/Class Notes Template.md",
     "Daily Notes/2021-08-30.md",
     "Untitled.md",
@@ -128,7 +121,6 @@
     "Daily Notes/2021-08-27.md",
     "Templates/Daily Note Template.md",
     "Templates/Untitled.md",
-    "Fall 2021 UF/Untitled.md",
-    "Daily Notes/2021-08-25.md"
+    "Fall 2021 UF/Untitled.md"
   ]
 }
