@@ -27,12 +27,15 @@
 		- It must contain a zero.
 		- Repeat.
 	- Initializing the method: choose a < b
-		- set a^(0)=a, b^(0)=b
-		- for k=0,1,2,...
-		- increment k
-		- if f(x^(k-1))=0
-			- then α = x^(k-1)
-			- `method would terminate here`
+```
+set a^(0)=a, b^(0)=b
+for k=0,1,2,...; k++
+	if f(x^(k-1))=0
+		then α = x^(k-1)
+		`method would terminate here`
+endif
+```
+- 
 
 ## Assignments to-do
 1. #📉MAD4401 
