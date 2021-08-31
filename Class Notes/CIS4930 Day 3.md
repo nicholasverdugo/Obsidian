@@ -15,7 +15,8 @@
 		- Everything is relative to that origin
 		- Center: (width/2, height/2)
 		- Each pixel on the screen is one unit
-		- 
+- Lots of stuff about coding in processing went on, I read Vinland instead lmao
+	- on chapter 104
 ## Assignments to-do
 1. #🎮CIS4930 
 	1. Due on @(date)
