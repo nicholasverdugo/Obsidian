@@ -1,5 +1,5 @@
 # @(today)
-### Class Tags:
+### Class Notes:
 
 ## Assignments to-do
 1. #PlaceholderTag Class
