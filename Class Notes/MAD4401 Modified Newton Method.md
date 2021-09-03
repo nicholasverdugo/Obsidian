@@ -14,6 +14,7 @@
 		- Check |f(x^k)|
 		- Terminate based on the residual r^k=f(x^k)
 		- |f(x^k)| < E
+	- if f'(α) ~~ 1 the residual works well
 	- 
 ## Assignments to-do
 1. #📉MAD4401
