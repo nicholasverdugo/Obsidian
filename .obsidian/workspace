@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-08-31.md",
+            "file": "Daily Notes/2021-09-03.md",
             "mode": "source"
           }
         }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-08-31.md",
+                "file": "Daily Notes/2021-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/2021-09-03.md",
     "Daily Notes/2021-08-31.md",
     "Templates/Class Notes Template.md",
     "Class Notes/MAD4401 Ch.2.md",
@@ -123,7 +124,6 @@
     "conflict-files-obsidian-git.md",
     "Untitled.md",
     "Templates/Daily Note Template.md",
-    "Templates/Untitled.md",
-    "Fall 2021 UF/Untitled.md"
+    "Templates/Untitled.md"
   ]
 }
