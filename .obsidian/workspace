@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-08-19.md",
+            "file": "Daily Notes/2021-09-22.md",
             "mode": "source"
           }
         }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-08-19.md",
+                "file": "Daily Notes/2021-09-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,7 @@
   },
   "active": "99ab58fc89ed380e",
   "lastOpenFiles": [
+    "Daily Notes/2021-09-22.md",
     "Daily Notes/2021-08-19.md",
     "Templates/Daily Note Template.md",
     "Untitled.md",
@@ -109,7 +110,6 @@
     "2021-08-18.md",
     "Old Stuff/JTML-Log OLD (7-26;8-11).md",
     "Daily Notes/JTML Log/8-18.md",
-    "JTML-note.md",
-    "JTML-Log OLD (7-26;8-11).md"
+    "JTML-note.md"
   ]
 }
