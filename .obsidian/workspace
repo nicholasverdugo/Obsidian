@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-09-22.md",
+            "file": "Class Notes/MAD4401 Modified Newton Method.md",
             "mode": "source"
           }
         }
@@ -69,6 +69,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "134e194bc6b1d996",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       },
@@ -82,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-09-22.md",
+                "file": "Class Notes/MAD4401 Modified Newton Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +112,15 @@
   },
   "active": "99ab58fc89ed380e",
   "lastOpenFiles": [
+    "Class Notes/MAD4401 Modified Newton Method.md",
+    "Class Notes/MAD4401 Ch.2.md",
+    "Daily Notes/2021-08-30.md",
     "Daily Notes/2021-09-22.md",
+    "conflict-files-obsidian-git.md",
     "Daily Notes/2021-08-19.md",
     "Templates/Daily Note Template.md",
     "Untitled.md",
     "Daily Notes/2021-08-18.md",
-    "2021-08-19.md",
-    "2021-08-18.md",
-    "Old Stuff/JTML-Log OLD (7-26;8-11).md",
-    "Daily Notes/JTML Log/8-18.md",
-    "JTML-note.md"
+    "2021-08-19.md"
   ]
 }
