@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-11-15.md",
+            "file": "Daily Notes/2021-11-30.md",
             "mode": "source"
           }
         }
@@ -61,7 +61,6 @@
       {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
-        "dimension": 37.04061895551257,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-11-15.md",
+                "file": "Daily Notes/2021-11-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,21 +91,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b26b79ee6a683470",
-        "type": "tabs",
-        "dimension": 62.95938104448743,
-        "children": [
-          {
-            "id": "1aa77f8052960925",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -114,6 +98,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/2021-11-30.md",
     "Daily Notes/2021-11-15.md",
     "Daily Notes/2021-10-19.md",
     "Daily Notes/2021-08-24.md",
@@ -122,7 +107,6 @@
     "Daily Notes/2021-08-31.md",
     "Daily Notes/2021-09-03.md",
     "Daily Notes/2021-09-13.md",
-    "Daily Notes/2021-09-21.md",
-    "Daily Notes/2021-09-22.md"
+    "Daily Notes/2021-09-21.md"
   ]
 }
