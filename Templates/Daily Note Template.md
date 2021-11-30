@@ -1,8 +1,6 @@
-# JTML Notes
-#### tags: 
+# Daily Notes
+## To-do:
+- [ ] 
 
-
-# class
-
-
-### Useful Links
+## To-be-done:
+- [ ] 
