@@ -7,11 +7,8 @@
         "id": "00fc0dc5f1b6fdb8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Day Planners/Day Planner-20211201.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -90,6 +87,7 @@
   },
   "active": "00fc0dc5f1b6fdb8",
   "lastOpenFiles": [
+    "Untitled.md",
     "Day Planners/Day Planner-20211201.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
@@ -98,7 +96,6 @@
     "conflict-files-obsidian-git.md",
     "Daily Notes/2021-09-21.md",
     "Templates/Class Notes Template.md",
-    "Daily Notes/2021-11-15.md",
-    "Daily Notes/2021-10-19.md"
+    "Daily Notes/2021-11-15.md"
   ]
 }
