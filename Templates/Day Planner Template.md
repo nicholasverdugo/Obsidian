@@ -3,18 +3,18 @@
 ~
 Wake up, get up, get out there!
 ~
-- [x] 09:00 Get up
-- [x] 09:30 Breakfast
-- [x] 10:00 Review to-do for the day
-- [x] 10:15 Prep food and backpack
-- [x] 10:30 Head out
-- [x] 10:45 BREAK
+- [ ] 09:00 Get up
+- [ ] 09:30 Breakfast
+- [ ] 10:00 Review to-do for the day
+- [ ] 10:15 Prep food and backpack
+- [ ] 10:30 Head out
+- [ ] 10:45 BREAK
 
 ### THE DAY :)
 ~
 The meat and potatoes.
 ~
-- [x] 11:00 Get to lab
+- [ ] 11:00 Get to lab
 - [ ] 11:05 Work on lab stuff
 - [ ] 13:00 BREAK
 - [ ] 14:00 Work on homework
