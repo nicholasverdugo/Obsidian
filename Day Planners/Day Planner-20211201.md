@@ -16,6 +16,11 @@ The meat and potatoes.
 ~
 - [x] 11:00 Get to lab
 - [x] 11:05 Werk werk werk werk werk
+	- [x] DIG Quiz
+	- [ ] Start P6
+	- [x] Set up Senior Proj. meeting
+	- [x] DIG EC
+	- [ ] Start statement of purpose
 - [ ] 13:00 BREAK
 - [ ] 14:00 More werk
 - [ ] 16:00 BREAK
