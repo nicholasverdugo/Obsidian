@@ -83,6 +83,20 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ada700ce308a0f91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff9de19ec4d83dbe",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,14 +105,12 @@
   "active": "00fc0dc5f1b6fdb8",
   "lastOpenFiles": [
     "Day Planners/Day Planner-20211201.md",
-    "Untitled.md",
-    "Templates/Day Planner Template.md",
-    "Templates/Daily Note Template.md",
+    "Daily Notes/2021-12-02.md",
     "Daily Notes/2021-12-01.md",
+    "Templates/Daily Note Template.md",
+    "Templates/Day Planner Template.md",
+    "Untitled.md",
     "Daily Notes/2021-11-30.md",
     "conflict-files-obsidian-git.md",
     "Daily Notes/2021-09-21.md",
-    "Templates/Class Notes Template.md",
-    "Daily Notes/2021-11-15.md"
-  ]
-}
+    "Templates/Class Notes Templat
