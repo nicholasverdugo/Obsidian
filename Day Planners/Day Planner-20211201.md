@@ -15,9 +15,9 @@ Wake up, get up, get out there!
 The meat and potatoes.
 ~
 - [x] 11:00 Get to lab
-- [ ] 11:05 Work on lab stuff
+- [x] 11:05 Werk werk werk werk werk
 - [ ] 13:00 BREAK
-- [ ] 14:00 Work on homework
+- [ ] 14:00 More werk
 - [ ] 16:00 BREAK
 
 ### Post-day vibes

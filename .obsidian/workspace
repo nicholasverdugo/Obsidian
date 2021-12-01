@@ -7,8 +7,11 @@
         "id": "00fc0dc5f1b6fdb8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Day Planners/Day Planner-20211201.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -87,8 +90,8 @@
   },
   "active": "00fc0dc5f1b6fdb8",
   "lastOpenFiles": [
-    "Untitled.md",
     "Day Planners/Day Planner-20211201.md",
+    "Untitled.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/2021-12-01.md",
