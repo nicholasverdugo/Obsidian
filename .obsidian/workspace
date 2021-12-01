@@ -4,15 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "b18f49520f66e882",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Daily Notes/2021-12-01.md",
-            "mode": "source"
+        "id": "88977db49a3261cc",
+        "type": "split",
+        "children": [
+          {
+            "id": "00fc0dc5f1b6fdb8",
+            "type": "leaf",
+            "dimension": 64.51612903225806,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day Planners/Day Planner-20211201.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "fd478935f8eb1ba3",
+            "type": "leaf",
+            "dimension": 35.483870967741936,
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -52,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 172
+    "width": 172,
+    "collapsed": true
   },
   "right": {
     "id": "f7b5f1d89565824d",
@@ -72,40 +90,16 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "373bf6285421ed25",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/2021-12-01.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6fd1be39297d535d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 177.5
   },
-  "active": "b18f49520f66e882",
+  "active": "00fc0dc5f1b6fdb8",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20211201.md",
     "Daily Notes/2021-12-01.md",
     "Daily Notes/2021-11-30.md",
     "Templates/Daily Note Template.md",
@@ -114,7 +108,6 @@
     "Templates/Class Notes Template.md",
     "Daily Notes/2021-11-15.md",
     "Daily Notes/2021-10-19.md",
-    "Daily Notes/2021-08-24.md",
-    "Daily Notes/2021-08-25.md"
+    "Daily Notes/2021-08-24.md"
   ]
 }

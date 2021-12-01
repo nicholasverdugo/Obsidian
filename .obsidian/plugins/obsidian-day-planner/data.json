@@ -1,0 +1,16 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 0,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "Daily Notes/2021-12-01.md",
+      "date": "Wed Dec 01 2021"
+    }
+  ],
+  "completePastItems": true,
+  "circularProgress": true,
+  "nowAndNextInStatusBar": true,
+  "showTaskNotification": false,
+  "timelineZoomLevel": 4
+}
