@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-03.md",
+            "file": "Master's Degree Stuff.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-03.md",
+                "file": "Master's Degree Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +123,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Master's Degree Stuff.md",
     "Daily Notes/2021-12-03.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/2021-12-01.md",
@@ -131,7 +132,6 @@
     "Daily Notes/2021-11-30.md",
     "Daily Notes/2021-09-21.md",
     "Templates/Class Notes Template.md",
-    "Daily Notes/2021-11-15.md",
-    "Daily Notes/2021-10-19.md"
+    "Daily Notes/2021-11-15.md"
   ]
 }
