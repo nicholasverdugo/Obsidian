@@ -59,8 +59,24 @@
     "type": "split",
     "children": [
       {
+        "id": "daff25c73b30d5ea",
+        "type": "tabs",
+        "dimension": 63.34661354581673,
+        "children": [
+          {
+            "id": "823b699bb13a6c74",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
+        "dimension": 36.65338645418327,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -98,11 +114,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 525.5
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
