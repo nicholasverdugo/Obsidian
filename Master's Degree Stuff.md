@@ -3,11 +3,13 @@
 - May 31 for everything
 
 # Requirements
-- GRE
+- GRE - needs to be done by beginning of May
+	- Start studying in January
 	- 153 Verbal
 	- 155 Quantitative
 	- 3.0 Analytical
-- TOEFL
+- TOEFL - needs to be done by beginning of May
+	- Start studying in January
 	- 213 Computer-based
 	- 80 Internet-based
 		- UF's code is 5812
