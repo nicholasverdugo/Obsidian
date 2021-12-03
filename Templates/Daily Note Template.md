@@ -6,11 +6,8 @@ color blue
 ```
 ^button-j8mj
 # Daily Notes
-## To-do:
-- [ ] 
-
-## To-be-done:
-- [ ] 
+## Notes-to-self
+- 
 
 ## Day Planner
 ### Morning Prep
