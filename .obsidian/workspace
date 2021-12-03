@@ -13,14 +13,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "834ab5c22e835803",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -87,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/2021-12-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,10 +104,10 @@
     "direction": "horizontal",
     "width": 255
   },
-  "active": "834ab5c22e835803",
+  "active": "b18f49520f66e882",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Daily Notes/2021-12-02.md",
+    "conflict-files-obsidian-git.md",
     "Daily Notes/2021-11-30.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/2021-09-21.md",
