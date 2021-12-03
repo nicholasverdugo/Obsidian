@@ -1,17 +1,3 @@
-```button
-name Quote!
-type command
-action Quote of the Day: Insert Random Quote of the Day
-color blue
-```
-^button-j8mj
-# Daily Notes
-## To-do:
-- [ ] 
-
-## To-be-done:
-- [ ] 
-
 ## Day Planner
 ### Morning Prep
 ~
