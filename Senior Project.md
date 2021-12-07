@@ -6,4 +6,4 @@
 	- He'll make us a specific write up, that along with the meeting on [[2021-12-13]] we should be able to get a good idea of what the plans are.
 	- We can do in-lab dev work (maybe avoid HiPerGator bc it just confuses things)
 	- Key points instead of convolutional neural networks?
-	- 
+	- Using trad. comp vision and modern ml tech we are attempting to dev a pipeline to autonomously generate 6-degree freedom 
