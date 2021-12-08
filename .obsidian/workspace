@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "58a06929473a40d9",
+        "id": "b18f49520f66e882",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-07.md",
+            "file": "Daily Notes/2021-12-08.md",
             "mode": "source"
           }
         }
@@ -52,15 +52,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 164
+    "width": 172
   },
   "right": {
     "id": "f7b5f1d89565824d",
     "type": "split",
     "children": [
       {
+        "id": "daff25c73b30d5ea",
+        "type": "tabs",
+        "dimension": 65.73705179282868,
+        "children": [
+          {
+            "id": "823b699bb13a6c74",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
+        "dimension": 34.26294820717131,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -74,20 +90,12 @@
             }
           },
           {
-            "id": "7c2d7d3a699d28cb",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
-            "id": "5019c76e3713f243",
+            "id": "373bf6285421ed25",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-07.md",
+                "file": "Daily Notes/2021-12-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,39 +105,33 @@
                 "unlinkedCollapsed": true
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "ada700ce308a0f91",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ff9de19ec4d83dbe",
+            "id": "6fd1be39297d535d",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 641.5
   },
-  "active": "58a06929473a40d9",
+  "active": "b18f49520f66e882",
   "lastOpenFiles": [
-    "Daily Notes/2021-12-07.md",
-    "Senior Project.md",
-    "Daily Notes/2021-12-06.md",
-    "Daily Notes/2021-12-01.md",
-    "Day Planners/Day Planner-20211201.md",
+    "Daily Notes/2021-12-08.md",
     "Templates/Daily Note Template.md",
     "Templates/Day Planner Template.md",
+    "Daily Notes/2021-12-06.md",
+    "Daily Notes/2021-12-03.md",
+    "Master's Degree Stuff.md",
+    "Daily Notes/2021-12-01.md",
     "Daily Notes/2021-12-02.md",
-    "Daily Notes/2021-11-30.md",
-    "conflict-files-obsidian-git.md"
+    "conflict-files-obsidian-git.md",
+    "Daily Notes/2021-11-30.md"
   ]
 }
