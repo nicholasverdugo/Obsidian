@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-08.md",
-            "mode": "source"
+            "file": "Daily Notes/2022-01-11.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -59,24 +60,8 @@
     "type": "split",
     "children": [
       {
-        "id": "daff25c73b30d5ea",
-        "type": "tabs",
-        "dimension": 65.73705179282868,
-        "children": [
-          {
-            "id": "823b699bb13a6c74",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
-        "dimension": 34.26294820717131,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -95,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-08.md",
+                "file": "Daily Notes/2022-01-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +92,7 @@
             }
           },
           {
-            "id": "6fd1be39297d535d",
+            "id": "b51f6acee550f389",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -116,6 +101,20 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "60afdf1783bedb18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63d155baf7dc6d0e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,15 +122,15 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/2022-01-11.md",
     "Daily Notes/2021-12-08.md",
+    "Daily Notes/2021-12-07.md",
     "Templates/Daily Note Template.md",
     "Templates/Day Planner Template.md",
     "Daily Notes/2021-12-06.md",
     "Daily Notes/2021-12-03.md",
     "Master's Degree Stuff.md",
     "Daily Notes/2021-12-01.md",
-    "Daily Notes/2021-12-02.md",
-    "conflict-files-obsidian-git.md",
-    "Daily Notes/2021-11-30.md"
+    "Daily Notes/2021-12-02.md"
   ]
 }
