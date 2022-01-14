@@ -1,0 +1,16 @@
+# Discussion 1
+- What did Winner oppose about technology?
+	- Technological Determinism
+		- Technology causes changes in our society without our input; all we can do is sit by and watch it happen.
+		- If there's nothing that we can do, it changes us *necessarily*.
+		- Ex: the car, or the smartphone
+			- Because of how we structure cities, cars are necessary to travel.
+			- Because we have this type of technology (internal combustion engine) we are going to look for the best ways to use it.
+			- The fact that it exists means it is going to be used.
+			- "You can't put the genie back in the bottle"
+	- Technological Somnambulism
+		- The acceptance of determinism - that we are sleepwalking through life without questioning technology's effect on us.
+		- It is a simple acceptance of the changes, not an explanation of why they happen.
+- What was Winner's position?
+	- Technology changes us and our society, and *we can determine how*.
+	- 
