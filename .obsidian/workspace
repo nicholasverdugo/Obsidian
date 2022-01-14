@@ -60,8 +60,24 @@
     "type": "split",
     "children": [
       {
+        "id": "e5f1bed984cb12e0",
+        "type": "tabs",
+        "dimension": 64.1025641025641,
+        "children": [
+          {
+            "id": "63d155baf7dc6d0e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
+        "dimension": 35.8974358974359,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -101,30 +117,16 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "60afdf1783bedb18",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "63d155baf7dc6d0e",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 641.5
+    "width": 499.50006103515625
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
     "Class Notes/PHI3681 Notebook.md",
-    "Senior Project.md",
     "Daily Notes/2022-01-14.md",
+    "Senior Project.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/2022-01-11.md",
     "Daily Notes/2021-12-08.md",

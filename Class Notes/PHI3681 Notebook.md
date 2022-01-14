@@ -9,9 +9,10 @@
 			- The fact that it exists means it is going to be used.
 			- "You can't put the genie back in the bottle"
 		- This does not hold, because there exists technology that *could* be used well for something, but isn't used for it. 
+			- Cloning could be used, but we do not, because of moral obligations.
 	- Technological Somnambulism
 		- The acceptance of determinism - that we are sleepwalking through life without questioning technology's effect on us.
 		- It is a simple acceptance of the changes, not an explanation of why they happen.
 - What was Winner's position?
 	- Technology changes us and our society, and *we can determine how*.
-	- 
+	- We should consider whether or not we want to actually use the new technology, and what changes it may effect on society. 
