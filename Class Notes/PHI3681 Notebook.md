@@ -1,4 +1,4 @@
-# Discussion 1
+# Discussion 1/14
 - What did Winner oppose about technology?
 	- Technological Determinism
 		- Advantageous technology causes changes in our society without our input; all we can do is sit by and watch it happen.
@@ -16,3 +16,8 @@
 - What was Winner's position?
 	- Technology changes us and our society, and *we can determine how*.
 	- We should consider whether or not we want to actually use the new technology, and what changes it may effect on society. 
+
+
+
+# Discussion 1/21
+- Notes here!
