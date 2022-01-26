@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Class Notes/PHI3681 Notebook.md",
+            "file": "Daily Notes/January 2022/2022-01-26.md",
             "mode": "source",
             "source": false
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/PHI3681 Notebook.md",
+                "file": "Daily Notes/January 2022/2022-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +124,7 @@
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Daily Notes/January 2022/2022-01-26.md",
     "Class Notes/PHI3681 Notebook.md",
     "Daily Notes/January 2022/2022-01-14.md",
     "Daily Notes/2021/2021-08-18.md",
@@ -132,7 +133,6 @@
     "Daily Notes/January 2022/2022-01-11.md",
     "Daily Notes/2021/2021-12-08.md",
     "Daily Notes/2021/2021-12-07.md",
-    "Templates/Day Planner Template.md",
-    "Daily Notes/2021/2021-12-06.md"
+    "Templates/Day Planner Template.md"
   ]
 }
