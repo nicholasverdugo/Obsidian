@@ -77,10 +77,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "c33ebaa9a7c03c28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "184f01cf19525192",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 185.2857208251953
+    "width": 185.2857208251953,
+    "collapsed": true
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
