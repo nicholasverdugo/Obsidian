@@ -15,3 +15,5 @@
 - Principally, the measurement approach utilizes fluoroscopy to obtain a sequence of silhouette images of the knee as it moves. These silhouettes are processed to create an outline, which is compared to a precomputed library of shapes and allows the program to choose the best match, and return a pose for that frame. 
 - The outline (contour) is represented with a series of Normalized Fourier Descriptors. These are found via selection of a centroid for the specific pose, and creating a periodic function via tracing distances from this centroid to the contour, advancing counter-clockwise with constant increments. 
 - This approach removes four degrees of freedom from the object without affecting the shape of the contour itself.
+- A "Shape Library" is created using this method with contours based on known, standardized positionings of a model of the prosthesis. The computed NFDs are compared to the library's NFDs, and the best match is chosen, returning a pose estimate. 
+- 
