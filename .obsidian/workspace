@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/January 2022/2022-01-26.md",
+            "file": "Lit Review/Notes on Papers.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#PlaceholderTag",
+                "query": "tag:#🎨IntroDas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,35 +49,21 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 172
+    "width": 172,
+    "collapsed": true
   },
   "right": {
     "id": "f7b5f1d89565824d",
     "type": "split",
     "children": [
       {
-        "id": "e5f1bed984cb12e0",
-        "type": "tabs",
-        "dimension": 64.1025641025641,
-        "children": [
-          {
-            "id": "63d155baf7dc6d0e",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "bd9355d851f9fa15",
         "type": "tabs",
-        "dimension": 35.8974358974359,
         "children": [
           {
             "id": "1f1d0b80714cc1d3",
@@ -89,50 +75,24 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "373bf6285421ed25",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/January 2022/2022-01-26.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b51f6acee550f389",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 499.50006103515625
+    "width": 185.2857208251953
   },
   "active": "b18f49520f66e882",
   "lastOpenFiles": [
+    "Lit Review/Notes on Papers.md",
+    "Daily Notes/January 2022/2022-01-11.md",
     "Daily Notes/January 2022/2022-01-26.md",
     "Class Notes/PHI3681 Notebook.md",
     "Daily Notes/January 2022/2022-01-14.md",
     "Daily Notes/2021/2021-08-18.md",
     "Senior Project.md",
     "Templates/Daily Note Template.md",
-    "Daily Notes/January 2022/2022-01-11.md",
     "Daily Notes/2021/2021-12-08.md",
-    "Daily Notes/2021/2021-12-07.md",
-    "Templates/Day Planner Template.md"
+    "Daily Notes/2021/2021-12-07.md"
   ]
 }
