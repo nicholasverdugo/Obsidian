@@ -26,4 +26,11 @@
 - Distortions in images must be accounted for and a consistent frame of reference must be established in order to compare generated NFDs to synthetically created NFDs.
 
 ## Burton 2021 - Automatic tracking of healthy joint kinematics from stereo-radiography sequences
--  
+-  This method builds on older techniques, passing *biplanar* radiographs through convolutional neural networks to generate kinematics for the tibia-fibula pair, the femur, and the patella. 
+- Using biplanar radiographs provides another frame of reference to generate more accurate and detailed kinematics.
+- The generated results were compared to manually created kinematics and showed strong potential for the new framework.
+- The framework utilizes four steps: 
+	- first, it utililzes a CNN to choose which frames should be tracked.
+	- second, another CNN generates segmented versions of these frames and semantic key points that will be used for tracking
+	- third, a Perspective-n-Point problem is used to estimate the poses of each bone based on the key points generated in the previous step
+	- last, 
