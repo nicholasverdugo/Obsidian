@@ -5,6 +5,7 @@
 - Lafortune 92
 - Mahfouz 05
 - Myers 12
+- Burton 21
 
 
 ### Banks 1996 - Accurate Measurement of Three-Dimensional Knee Replacement Kinematics Using Single-Plane Fluoroscopy
@@ -18,3 +19,6 @@
 - A "Shape Library" is created using this method with contours based on known, standardized positionings of a model of the prosthesis. The computed NFDs are compared to the library's NFDs, and the program interpolates between the two best matches to find a resulting pose. This is called an "interpolated NFD", which the program uses to successively  recalculate a new interpolated NFD with the goal of minimizing the difference between this interpolated NFD and the inputted NFD. This results in an NFD as close to the input as possible, along with calculated pose coordinates based on the library poses. 
 - This allows for a program to dynamically generate high resolution poses without needing an infinitely extensive library to store all potential poses. 
 - Distortions in images must be accounted for and a consistent frame of reference must be established in order to compare generated NFDs to synthetically created NFDs.
+
+## Burton 2021 - Automatic tracking of healthy joint kinematics from stereo-radiography sequences
+- 
