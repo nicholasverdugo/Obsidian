@@ -35,4 +35,6 @@
 	- second, another CNN generates segmented versions of these frames and semantic key points that will be used for tracking
 	- third, a Perspective-n-Point problem is used to estimate the poses of each bone based on the key points generated in the previous step
 	- lastly, the pose estimates are used to minimize differences in appearance between the segmented images and the projections of the bones for both planes in the radiographic image
-- 
+- This method uses a technique named *pyramidal grid search* to refine poses. This utililzes a down-scaled version of each radiograph, beginning at 64x64, and evaluates all search points. This is repeated, with the image's resolution doubling each step. This ensures that the algorithm quickly rules out large batches of search space that don't need to be checked.
+
+ ## Next paper :) 
