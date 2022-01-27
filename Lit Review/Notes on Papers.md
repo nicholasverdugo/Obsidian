@@ -30,7 +30,9 @@
 - Using biplanar radiographs provides another frame of reference to generate more accurate and detailed kinematics.
 - The generated results were compared to manually created kinematics and showed strong potential for the new framework.
 - The framework utilizes four steps: 
-	- first, it utililzes a CNN to choose which frames should be tracked.
+	- first, a CNN chooses which frames can be tracked through the rest of the framework.
+		- this essentially ensures that all three bones that are tracked (tibia-fibula, patella, and femur) are visible and trackable in both planes
 	- second, another CNN generates segmented versions of these frames and semantic key points that will be used for tracking
 	- third, a Perspective-n-Point problem is used to estimate the poses of each bone based on the key points generated in the previous step
-	- last, 
+	- lastly, the pose estimates are used to minimize differences in appearance between the segmented images and the projections of the bones for both planes in the radiographic image
+- 
