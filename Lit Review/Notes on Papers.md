@@ -7,6 +7,11 @@
 - Myers 12
 - Burton 21
 
+## What should be in the Literature Review?
+- After completion, the review should have:
+	- Explained the major achievements in the field
+	- Reviewed the main areas of debate
+	- Identified outstanding research questions
 
 ### Banks 1996 - Accurate Measurement of Three-Dimensional Knee Replacement Kinematics Using Single-Plane Fluoroscopy
 - TKR kinematics measurement needs an alternative to skin markers, as those don't fully show the small movements occurring between bones.
@@ -21,4 +26,4 @@
 - Distortions in images must be accounted for and a consistent frame of reference must be established in order to compare generated NFDs to synthetically created NFDs.
 
 ## Burton 2021 - Automatic tracking of healthy joint kinematics from stereo-radiography sequences
-- 
+-  
