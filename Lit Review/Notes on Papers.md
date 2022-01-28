@@ -38,7 +38,7 @@
 - This method uses a technique named *pyramidal grid search* to refine poses. This utililzes a down-scaled version of each radiograph, beginning at 64x64, and evaluates all search points. This is repeated, with the image's resolution doubling each step. This ensures that the algorithm quickly rules out large batches of search space that don't need to be checked.
 
  ## Zhu 2012 - The accuracy and repeatability of an automatic 2D-3D fluoroscopic image-model registration technique for determining shoulder joint kinematics
- - This method utilizes two flouroscopes to create a common imaging zone of the shoulder. 
+ - This method utilizes two fluoroscopes to create a common imaging zone of the shoulder. 
  - Next, 3-D models of the scapula and humerus are created using MR images of the patient's shoulder. A point cloud of key points is created from these MR images, and used to generate a local coordinate system for the shoulder. 
  - This point cloud and coordinate system are imported into a virtual dual fluoroscopic image system (DFIS), which was set up to mirror the real-world equivalent used to capture the initial images of the patient's shoulder. 
  - The digital DFIS is used to project outlines of the shoulder onto the fluoroscopic images, and via manipulation of the positions of the joint, the original shoulder position is reproduced with 6DOF (x,y,z, alpha,beta,gamma) 
