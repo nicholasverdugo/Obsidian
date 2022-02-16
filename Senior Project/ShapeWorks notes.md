@@ -30,3 +30,10 @@ These resulted in:
 Results in
 ![[Pasted image 20220216000454.png]]
 
+
+
+40%!!!!
+![[Pasted image 20220216003524.png]]
+![[Pasted image 20220216003531.png]]
+![[Pasted image 20220216003540.png]]
+
