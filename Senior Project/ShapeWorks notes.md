@@ -41,3 +41,6 @@ Write down parameters and how they are used, and the workflow for shapeworks
 Format for xlsx files to import projects as well
 
 http://sciinstitute.github.io/ShapeWorks/use-cases/constraint-based/femur-cutting-planes.html
+
+
+Avoid smoothing - not nece
