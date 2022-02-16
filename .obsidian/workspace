@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-07.md",
+            "file": "Daily Notes/2022-02-16.md",
             "mode": "source"
           }
         }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-07.md",
+                "file": "Daily Notes/2022-02-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +121,7 @@
   },
   "active": "58a06929473a40d9",
   "lastOpenFiles": [
+    "Daily Notes/2022-02-16.md",
     "Daily Notes/2021-12-07.md",
     "Senior Project.md",
     "Daily Notes/2021-12-06.md",
@@ -129,7 +130,6 @@
     "Templates/Daily Note Template.md",
     "Templates/Day Planner Template.md",
     "Daily Notes/2021-12-02.md",
-    "Daily Notes/2021-11-30.md",
-    "conflict-files-obsidian-git.md"
+    "Daily Notes/2021-11-30.md"
   ]
 }
