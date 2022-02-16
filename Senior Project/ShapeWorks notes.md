@@ -21,3 +21,5 @@
 
 ![[Pasted image 20220215204201.png]]
 - Decreased relative weighting - much more promising results!! Going to change it around to see its relationship with correspondence of points
+
+![[Pasted image 20220215234834.png]]
