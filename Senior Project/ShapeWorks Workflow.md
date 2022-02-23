@@ -80,3 +80,4 @@
 
 ### Section 3c: Exporting Data
 - To export the key point data, click file->export->Export current particles
+![[Pasted image 20220223150915.png]]
