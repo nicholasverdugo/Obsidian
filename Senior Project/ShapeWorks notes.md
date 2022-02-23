@@ -100,7 +100,9 @@ Avoid smoothing - not necessary
 	- Starting Regularization & Ending Regularization
 		- Don't worry about modifying these(?)
 	- Iterations Per Split
-		- 
+		- How many times the optimization occurrs per split of points
+		- Keep this around 1000, increase it to help get particles to be in the "right places" but there are diminishing returns on increasing it.
+		- This affects processing time quite a lot, especially with higher amounts of particles
 	- Optimization Iterations
 		- 
 	- Geodesic Distance
@@ -108,7 +110,7 @@ Avoid smoothing - not necessary
 	- Normals
 		- Tells the algorithm whether to consider surface normals and the xyz of a particle in correspondence
 		- Could be enabled to avoid particles flipping sides on thin structures
-		- Seems like it may be needed in order to get particles to place on the 
+		- Seems like it may be needed in order to get particles to place on the coracoid and acromion processes
 	- Normals Strength
 		- 
 	- Procrustes
