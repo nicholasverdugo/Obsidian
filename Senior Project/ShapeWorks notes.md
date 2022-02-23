@@ -106,7 +106,7 @@ Avoid smoothing - not necessary
 	- Optimization Iterations
 		- 
 	- Geodesic Distance
-		- 
+		- Don't enable this. Increases computing time by a factor of 10x and is not useful for our application. 
 	- Normals
 		- Tells the algorithm whether to consider surface normals and the xyz of a particle in correspondence
 		- Could be enabled to avoid particles flipping sides on thin structures
