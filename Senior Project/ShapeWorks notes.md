@@ -88,7 +88,10 @@ Avoid smoothing - not necessary
 ### Section 3b: Optimizing
 - There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
 	- Number of particles
-		- 
+		- The amount of particles the program generates
+		- Keep this number low while fine-tuning your parameters (x<64)
+		- Increasing it provides a mesh with higher detail at the end, but takes much longer
+		- Increase
 	- Initial Relative Weighting
 		- 
 	- Relative Weighting
