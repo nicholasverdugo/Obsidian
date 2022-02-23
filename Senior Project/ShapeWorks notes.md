@@ -44,3 +44,20 @@ http://sciinstitute.github.io/ShapeWorks/use-cases/constraint-based/femur-cuttin
 
 
 Avoid smoothing - not necessary 
+
+
+# ShapeWorks workflow!
+## Section 1: Installation
+- To get ShapeWorks, first [install miniconda](https://docs.conda.io/en/latest/miniconda.html) if you don't already have it.
+- Visit ShapeWorks's [GitHub](https://github.com/SCIInstitute/ShapeWorks/releases) and download the latest stable release.
+- Install ShapeWorks using the installer you downloaded
+- Open a miniconda terminal and navigate to the ShapeWorks folder
+	- Default location is C:\\Program Files\\ShapeWorks
+- Run install_shapeworks in the miniconda terminal
+	- NOTE: If this step takes a while to complete, try deleting the shapeworks folder and updating your miniconda
+- Once that is complete, navigate to C:\\Program Files\\ShapeWorks\\bin and run ShapeWorksStudio.exe
+
+## Section 2: Importing a dataset
+- For our purposes, we are using ShapeWorks to analyze .stl files. 
+- Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
+- Once it is downloaded, clone the nick-dev branch from the Shoulder-Keypoint repo on GitHub and create a folder named "Projects" in the root of that folder
