@@ -77,4 +77,13 @@ Avoid smoothing - not necessary
 	- *Analyze*, which we can use to visualize the different point clouds for each individual mesh and see how well our optimization parameters did
 
 ### Section 3a: Grooming
+- Grooming has three main options:
+	- Fill Holes
+	- Smooth
+	- Remesh
+- Fill holes should always be selected for our purposes
+- Smooth should not be selected, as it creates a mesh that loses much of the surface detail we need out of a groomed mesh
+- Remesh is what we are going to be messing with the most, but it seems like the default settings work well so far.
+
+### Section 3b: Optimizing
 - 
