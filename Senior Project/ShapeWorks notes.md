@@ -86,4 +86,36 @@ Avoid smoothing - not necessary
 - Remesh is what we are going to be messing with the most, but it seems like the default settings work well so far.
 
 ### Section 3b: Optimizing
-- 
+- There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
+	- Number of particles
+		- 
+	- Initial Relative Weighting
+		- 
+	- Relative Weighting
+		- 
+	- Starting Regularization
+		- 
+	- Ending Regularization
+		- 
+	- Iterations Per Split
+		- 
+	- Optimization Iterations
+		- 
+	- Geodesic Distance
+		- 
+	- Normals
+		- 
+	- Normals Strength
+		- 
+	- Procrustes
+		- 
+	- Procrustes Scaling
+		- 
+	- Procrustes Interval
+		- 
+	- Multiscale Mode
+		- 
+	- Multiscale Start
+		- 
+	- Narrow Band
+		- 
