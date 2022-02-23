@@ -76,5 +76,5 @@ Avoid smoothing - not necessary
 	- *Optimize*, which is what we use to actually generate the points on each mesh
 	- *Analyze*, which we can use to visualize the different point clouds for each individual mesh and see how well our optimization parameters did
 
-### Grooming
+### Section 3a: Grooming
 - 
