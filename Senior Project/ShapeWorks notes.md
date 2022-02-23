@@ -91,15 +91,14 @@ Avoid smoothing - not necessary
 		- The amount of particles the program generates
 		- Keep this number low while fine-tuning your parameters (x<64)
 		- Increasing it provides a mesh with higher detail at the end, but takes much longer
-		- Increase
 	- Initial Relative Weighting
-		- 
+		- How the initial correspondence is weighted
+		- Increase this number (by a factor of 0.01) in order to make particles correspond better
 	- Relative Weighting
-		- 
-	- Starting Regularization
-		- 
-	- Ending Regularization
-		- 
+		- Relative weighting of correspondence during optimization
+		- Decrease this number (by a factor of 1) to help particles spread more evenly across the mesh
+	- Starting Regularization & Ending Regularization
+		- Don't worry about modifying these(?)
 	- Iterations Per Split
 		- 
 	- Optimization Iterations
@@ -107,7 +106,9 @@ Avoid smoothing - not necessary
 	- Geodesic Distance
 		- 
 	- Normals
-		- 
+		- Tells the algorithm whether to consider surface normals and the xyz of a particle in correspondence
+		- Could be enabled to avoid particles flipping sides on thin structures
+		- Seems like it may be needed in order to get particles to place on the 
 	- Normals Strength
 		- 
 	- Procrustes
