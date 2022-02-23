@@ -114,11 +114,9 @@ Avoid smoothing - not necessary
 	- Normals Strength
 		- 
 	- Procrustes
-		- 
-	- Procrustes Scaling
-		- 
-	- Procrustes Interval
-		- 
+		- Procrustes Scaling
+		- Procrustes Interval
+			- Not sure what exactly these do, but they have consistently been producing good results. Keeping them checked and at the default value seems to be best for now. 
 	- Multiscale Mode
 		- 
 	- Multiscale Start
