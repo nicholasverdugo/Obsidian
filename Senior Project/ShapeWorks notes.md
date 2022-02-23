@@ -46,7 +46,7 @@ http://sciinstitute.github.io/ShapeWorks/use-cases/constraint-based/femur-cuttin
 Avoid smoothing - not necessary 
 
 
-# ShapeWorks workflow!
+# ShapeWorks Workflow
 ## Section 1: Installation
 - To get ShapeWorks, first [install miniconda](https://docs.conda.io/en/latest/miniconda.html) if you don't already have it.
 - Visit ShapeWorks's [GitHub](https://github.com/SCIInstitute/ShapeWorks/releases) and download the latest stable release.
@@ -61,3 +61,20 @@ Avoid smoothing - not necessary
 - For our purposes, we are using ShapeWorks to analyze .stl files. 
 - Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
 - Once it is downloaded, clone the nick-dev branch from the Shoulder-Keypoint repo on GitHub and create a folder named "Projects" in the root of that folder
+![[Screenshot 2022-02-23 121208.png]]
+- Open the repo in VSCode and run the file "CreateProject.py"
+	- The program will prompt you first for a name for the project file.
+	- Next, get the path to the shoulder data you downloaded earlier and paste it into the program. It should be that path to a folder that contains the two datasets, "Akira_Organized" and "Keisuke_Organized"
+	- Next, choose which bones to import. Type 'y' for yes, 'n' for no.
+	- Lastly, choose the amount of bones to import. I would recommend 9 at most if you're just trying to get optimization to work correctly and mess around with parameters.
+	- The project file will be saved in the Projects folder you created earlier
+- Open ShapeWorks and click "Open Existing Project", then navigate to the Projects folder and select the file you created above to import your desired .stl files.
+
+## Section 3: Using ShapeWorks to create point clouds
+- ShapeWorks uses three steps in order to generate a point cloud:
+	- *Groom*, which smooths out the models and makes them easier for the program to process
+	- *Optimize*, which is what we use to actually generate the points on each mesh
+	- *Analyze*, which we can use to visualize the different point clouds for each individual mesh and see how well our optimization parameters did
+
+### Grooming
+- 
