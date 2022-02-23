@@ -36,6 +36,7 @@
 	- Remesh
 - Fill holes should always be selected for our purposes, this also speeds up grooming by quite a bit
 - Smooth should not be selected, as it creates a mesh that loses much of the surface detail we need in this use case
+	- WindowedSinc with 1 iteration produces good results. Look into this more!
 - Remesh is what we are going to be messing with the most, but it seems like the default settings work well so far.
 
 ### Section 3b: Optimizing
