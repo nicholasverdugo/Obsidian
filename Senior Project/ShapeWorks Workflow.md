@@ -77,3 +77,6 @@
 		- 
 	- Narrow Band
 		- Doesn't affect optimization. Don't worry about this.
+
+### Section 3c: Exporting Data
+- To export the key point data, click file->export->Export current particles
