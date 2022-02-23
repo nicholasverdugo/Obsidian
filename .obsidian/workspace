@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Senior Project/ShapeWorks Workflow.md",
+            "file": "Senior Project/ShapeWorks notes.md",
             "mode": "source",
             "source": false
           }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Senior Project/ShapeWorks Workflow.md",
+                "file": "Senior Project/ShapeWorks notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,8 @@
   },
   "active": "47f900329ac6fe1f",
   "lastOpenFiles": [
-    "Senior Project/ShapeWorks Workflow.md",
     "Senior Project/ShapeWorks notes.md",
+    "Senior Project/ShapeWorks Workflow.md",
     "Images/Screenshot 2022-02-23 121208.png",
     "Daily Notes/January 2022/2022-02-23.md",
     "conflict-files-obsidian-git.md",
