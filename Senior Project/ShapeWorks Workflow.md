@@ -14,7 +14,7 @@
 - For our purposes, we are using ShapeWorks to analyze .stl files. 
 - Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
 - Once it is downloaded, clone the nick-dev branch from the Shoulder-Keypoint repo on GitHub and create a folder named "Projects" in the root of that folder
-![[Screenshot 2022-02-23 121208.png]]
+
 - Open the repo in VSCode and run the file "CreateProject.py"
 	- The program will prompt you first for a name for the project file.
 	- Next, get the path to the shoulder data you downloaded earlier and paste it into the program. It should be that path to a folder that contains the two datasets, "Akira_Organized" and "Keisuke_Organized"
@@ -77,4 +77,5 @@
 
 ### Section 3c: Exporting Data
 - To export the key point data, click file->export->Export current particles
+
 ![[Pasted image 20220223150915.png]]
