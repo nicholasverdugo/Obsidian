@@ -10,6 +10,8 @@
 	- NOTE: If this step takes a while to complete, try deleting the shapeworks folder and updating your miniconda
 - Once that is complete, navigate to C:\\Program Files\\ShapeWorks\\bin and run ShapeWorksStudio.exe
 
+
+
 ## Section 2: Importing a dataset
 - For our purposes, we are using ShapeWorks to analyze .stl files. 
 - Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
@@ -23,6 +25,8 @@
 	- Lastly, choose the amount of bones to import. I would recommend 9 at most if you're just trying to get optimization to work correctly and mess around with parameters.
 	- The project file will be saved in the Projects folder you created earlier
 - Open ShapeWorks and click "Open Existing Project", then navigate to the Projects folder and select the file you created above to import your desired .stl files.
+
+
 
 ## Section 3: Using ShapeWorks to create point clouds
 - ShapeWorks uses three steps in order to generate a point cloud:
