@@ -58,7 +58,7 @@
 		- Keep this around 1000, increase it to help get particles to be in the "right places" but there are diminishing returns on increasing it.
 		- This affects processing time quite a lot, especially with higher amounts of particles
 	- Optimization Iterations
-		- 
+		- How many times the program will optimize point location per iteration. Keep this around 1000.
 	- Geodesic Distance
 		- Don't enable this. Increases computing time by a factor of 10x and is not useful for our application. 
 	- Normals
@@ -66,11 +66,9 @@
 		- Should be enabled to avoid particles flipping sides on thin structures
 		- Seems like it may be needed in order to get particles to place correctly on most smaller structures
 	- Normals Strength
-		- 
+		- How much the algorithm ascribes strength of surface normals relative to position.
 	- Procrustes
-		- Procrustes Scaling
-		- Procrustes Interval
-			- Not sure what exactly these do, but they have consistently been producing good results. Keeping them checked and at the default value seems to be best for now. 
+		- These options provide minimal changes and have little documentation. Would recommend to just avoid for now.
 	- Multiscale Mode
 		- Don't modify this. Not useful.
 	- Multiscale Start
