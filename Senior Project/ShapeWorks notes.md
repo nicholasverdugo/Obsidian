@@ -37,3 +37,10 @@ Results in
 ![[Pasted image 20220216003531.png]]
 ![[Pasted image 20220216003540.png]]
 
+Write down parameters and how they are used, and the workflow for shapeworks
+Format for xlsx files to import projects as well
+
+http://sciinstitute.github.io/ShapeWorks/use-cases/constraint-based/femur-cutting-planes.html
+
+
+Avoid smoothing - not necessary 
