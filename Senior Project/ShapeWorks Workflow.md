@@ -72,9 +72,9 @@
 		- Procrustes Interval
 			- Not sure what exactly these do, but they have consistently been producing good results. Keeping them checked and at the default value seems to be best for now. 
 	- Multiscale Mode
-		- 
+		- Don't modify this. Not useful.
 	- Multiscale Start
-		- 
+		- Don't modify this. Not useful.
 	- Narrow Band
 		- Doesn't affect optimization. Don't worry about this.
 
