@@ -35,15 +35,14 @@
 	- Smooth
 	- Remesh
 - Fill holes should always be selected for our purposes, this also speeds up grooming by quite a bit
-- Smooth should not be selected, as it creates a mesh that loses much of the surface detail we need in this use case
-	- WindowedSinc with 1 iteration produces good results. Look into this more!
-- Remesh is what we are going to be messing with the most, but it seems like the default settings work well so far.
+- Smoothing is prety self explanatory: it smoothes out the mesh. This *can* be useful, but if you enable it be sure to keep iteration amounts between 1 and 3, as going higher loses the surface detail that we need to generate accurate clouds.
+- Remesh modifies the mesh so that the triangles that make it up have more similar areas. This is very useful, but keep it at default. 
 
 ### Section 3b: Optimizing
 - There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
 	- Number of particles
 		- The amount of particles the program generates
-		- Keep this number low while fine-tuning your parameters (x<64)
+		- Keep this number low while fine-tuning your parameters (x<64) but increase and decrease by factors of x\*2 if you need to.
 		- Increasing it provides a mesh with higher detail at the end, but takes much longer
 	- Initial Relative Weighting
 		- How the initial correspondence is weighted
@@ -70,9 +69,9 @@
 	- Procrustes
 		- These options provide minimal changes and have little documentation. Would recommend to just avoid for now.
 	- Multiscale Mode
-		- Don't modify this. Not useful.
+		- No documentation on this option and it hasn't provided meaningful improvements. Would recommend avoiding this.
 	- Multiscale Start
-		- Don't modify this. Not useful.
+		- After how many particles should multiscale mode begin.
 	- Narrow Band
 		- Doesn't affect optimization. Don't worry about this.
 
