@@ -63,8 +63,8 @@
 		- Don't enable this. Increases computing time by a factor of 10x and is not useful for our application. 
 	- Normals
 		- Tells the algorithm whether to consider surface normals and the xyz of a particle in correspondence
-		- Could be enabled to avoid particles flipping sides on thin structures
-		- Seems like it may be needed in order to get particles to place on the coracoid and acromion processes
+		- Should be enabled to avoid particles flipping sides on thin structures
+		- Seems like it may be needed in order to get particles to place correctly on most smaller structures
 	- Normals Strength
 		- 
 	- Procrustes
