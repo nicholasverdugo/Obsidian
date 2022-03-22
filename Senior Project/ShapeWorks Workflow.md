@@ -36,14 +36,21 @@
 	- *Analyze*, which we can use to visualize the different point clouds for each individual mesh and see how well our optimization parameters did
 
 ### Section 3a: Grooming
-- Grooming has three main options:
+#### Mesh Grooming
+- Mesh Grooming has three main options:
 	- Fill Holes
 	- Smooth
 	- Remesh
 - Fill holes should always be selected for our purposes, this also speeds up grooming by quite a bit
 - Smoothing is prety self explanatory: it smoothes out the mesh. This *can* be useful, but if you enable it be sure to keep iteration amounts between 1 and 3, as going higher loses the surface detail that we need to generate accurate clouds.
 - Remesh modifies the mesh so that the triangles that make it up have more similar areas. This is very useful, but keep it at default. 
-
+#### Alignment
+- This section allows you to modify the alignment and the reflections of meshes
+- For our purposes, the *CreateProject.py* file mentioned above assigns the "right" group to any bone that contains "raxes" in its name. Otherwise, it assigns the "left" group
+	- This is done because the Keisuke dataset is the only one with meshes from both sides of the body - Akira has only the left.
+- Select the "Reflect" option to reflect the meshes so that they all have the same orientation.
+	- Change the "shape_file" option to "group_side" to enable this feature
+- 
 ### Section 3b: Optimizing
 - There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
 	- Number of particles
