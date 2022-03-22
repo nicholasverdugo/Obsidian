@@ -93,4 +93,6 @@
 ### Section 3c: Exporting Data
 - To export the key point data, just save the project! This will save all of the current particles in a folder with the same name as the project, just with "\_particles" appended.
 
-![[Pasted image 20220223150915.png]]
+![[Pasted image 20220322160701.png]]
+
+![[Pasted image 20220322160716.png]]
