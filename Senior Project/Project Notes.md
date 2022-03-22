@@ -8,3 +8,17 @@ Working on reflecting the Left-facing meshes in the Keisuke dataset because Shap
 	This can be done on an unmodified dataset, so no need to reupload
 If it isn't finished today, make sure to tell Diana (or just do it myself lol) to flip the "Laxes" particles across the x axis (should be this axis, as ShapeWorks is flipping the .stls across this axis)
 This is done in order to realign them to their original fluoroscopy images. We're reflecting them just to create uniform keypoints that also correlate.
+
+
+Parameters for ShapeWorks:
+![[Pasted image 20220322151047.png]]
+
+![[Pasted image 20220322151039.png]]
+
+![[Pasted image 20220322151124.png]]
+
+![[Pasted image 20220322151133.png]]
+
+![[Pasted image 20220322151149.png]]
+
+![[Pasted image 20220322151158.png]]
