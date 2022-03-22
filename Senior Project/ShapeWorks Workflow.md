@@ -47,7 +47,7 @@
 #### Alignment
 - This section allows you to modify the alignment and the reflections of meshes
 - For our purposes, the *CreateProject.py* file mentioned above assigns the "right" group to any bone that contains "Raxes" in its name. Otherwise, it assigns the "left" group
-	- This is done because the Keisuke dataset is the only one with meshes from both sides of the body - Akira has only the left.
+	- This is done because the Keisuke dataset is the only one with meshes from both sides of the body - Akira has only the left. The Keisuke dataset names corresponding meshes "Raxes" for the right side, and "Laxes" for the left, resulting in the above logic for the script.
 - Select the "Reflect" option to reflect the meshes so that they all have the same orientation.
 	- Change the "shape_file" option to "group_side" to enable this feature
 
