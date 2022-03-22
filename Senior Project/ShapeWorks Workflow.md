@@ -23,6 +23,7 @@
 	- Next, get the path to the shoulder data you downloaded earlier and paste it into the program. It should be that path to a folder that contains the two datasets, "Akira_Organized" and "Keisuke_Organized"
 	- Next, choose which bones to import. Type 1 for scapula, 2 for humerus, or 3 for clavicle.
 	- Lastly, choose the amount of bones to import. I would recommend 9 at most if you're just trying to get optimization to work correctly and mess around with parameters.
+	- If you're trying to generate data for the whole dataset, however, type "all"
 	- The project file will be saved in the Projects folder you created earlier
 - Open ShapeWorks and click "Open Existing Project", then navigate to the Projects folder and select the file you created above to import your desired .stl files.
 
