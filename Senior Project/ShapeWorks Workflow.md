@@ -51,6 +51,8 @@
 - Select the "Reflect" option to reflect the meshes so that they all have the same orientation.
 	- Change the "shape_file" option to "group_side" to enable this feature
 
+![[Pasted image 20220322160529.png]]
+
 ### Section 3b: Optimizing
 - There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
 	- Number of particles
@@ -89,6 +91,6 @@
 		- Doesn't affect optimization. Don't worry about this.
 
 ### Section 3c: Exporting Data
-- To export the key point data, click file->export->Export current particles
+- To export the key point data, just save the project! This will save all of the current particles in a folder with the same name as the project, just with "\_particles" appended.
 
 ![[Pasted image 20220223150915.png]]
