@@ -10,8 +10,6 @@
 	- NOTE: If this step takes a while to complete, try deleting the shapeworks folder and updating your miniconda
 - Once that is complete, navigate to C:\\Program Files\\ShapeWorks\\bin and run ShapeWorksStudio.exe
 
-
-
 ## Section 2: Importing a dataset
 - For our purposes, we are using ShapeWorks to analyze .stl files. 
 - Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
