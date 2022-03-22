@@ -40,6 +40,7 @@
 	- Smooth
 	- Remesh
 - Fill holes should always be selected for our purposes, as many of the scapula meshes have...you guessed it: holes!
+	- NOTE: If the grooming step is taking a long time for Scapulae, de select this option. Not recommended, but it was not completing on some computers so do this if needed
 - Smoothing is prety self explanatory: it smoothes out the mesh. This *can* be useful, but if you enable it be sure to keep iteration amounts between 1 and 3, as going higher loses the surface detail that we need to generate accurate clouds.
 - Remesh modifies the mesh so that the triangles that make it up have more similar areas. This is very useful, but keep it at default. 
 #### Alignment
