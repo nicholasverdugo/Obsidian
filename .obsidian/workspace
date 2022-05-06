@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/January 2022/2022-05-06.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "6a4a3e6df49054a6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "Daily Notes/May 2022/2022-05-06.md",
             "mode": "source",
             "source": false
           }
@@ -65,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -89,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Daily Notes/May 2022/2022-05-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6a4a3e6df49054a6",
+  "active": "2c142a8ffcbd40f4",
   "lastOpenFiles": [
+    "Daily Notes/May 2022/2022-05-06.md",
+    "Templates/Daily Note Template.md",
+    "Daily Notes/2022-01-26.md",
+    "Daily Notes/2022-02-16.md",
+    "Master's Degree Stuff.md",
+    "Templates/Day Planner Template.md",
     "conflict-files-obsidian-git.md",
-    "Daily Notes/January 2022/2022-05-06.md",
     "Daily Notes/January 2022/2022-04-17.md",
     "Senior Project/ShapeWorks Workflow.md",
-    "Senior Project/ShapeWorks notes.md",
-    "Daily Notes/January 2022/2022-02-25.md",
-    "Images/Pasted image 20220215203442.png",
-    "Daily Notes/January 2022/2022-02-16.md",
-    "Senior Project/Senior Project.md",
-    "Daily Notes/January 2022/2022-02-15.md"
+    "Senior Project/ShapeWorks notes.md"
   ]
 }
