@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -110,6 +109,7 @@
   "active": "2c142a8ffcbd40f4",
   "lastOpenFiles": [
     "Daily Notes/May 2022/2022-05-06.md",
+    "Daily Notes/January 2022/2022-05-06.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/2022-01-26.md",
     "Daily Notes/2022-02-16.md",
@@ -117,7 +117,6 @@
     "Templates/Day Planner Template.md",
     "conflict-files-obsidian-git.md",
     "Daily Notes/January 2022/2022-04-17.md",
-    "Senior Project/ShapeWorks Workflow.md",
-    "Senior Project/ShapeWorks notes.md"
+    "Senior Project/ShapeWorks Workflow.md"
   ]
 }
