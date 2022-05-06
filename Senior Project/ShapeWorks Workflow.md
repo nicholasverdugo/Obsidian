@@ -10,8 +10,6 @@
 	- NOTE: If this step takes a while to complete, try deleting the shapeworks folder and updating your miniconda
 - Once that is complete, navigate to C:\\Program Files\\ShapeWorks\\bin and run ShapeWorksStudio.exe
 
-
-
 ## Section 2: Importing a dataset
 - For our purposes, we are using ShapeWorks to analyze .stl files. 
 - Download our shoulder dataset from [here](https://www.dropbox.com/sh/mp15p8qoanhzwyd/AAAkmvp1IcqS9lWDwHOM2_Sna?dl=0)
@@ -23,10 +21,9 @@
 	- Next, get the path to the shoulder data you downloaded earlier and paste it into the program. It should be that path to a folder that contains the two datasets, "Akira_Organized" and "Keisuke_Organized"
 	- Next, choose which bones to import. Type 1 for scapula, 2 for humerus, or 3 for clavicle.
 	- Lastly, choose the amount of bones to import. I would recommend 9 at most if you're just trying to get optimization to work correctly and mess around with parameters.
+	- If you're trying to generate data for the whole dataset, however, type "all"
 	- The project file will be saved in the Projects folder you created earlier
 - Open ShapeWorks and click "Open Existing Project", then navigate to the Projects folder and select the file you created above to import your desired .stl files.
-
-
 
 ## Section 3: Using ShapeWorks to create point clouds
 - ShapeWorks uses three steps in order to generate a point cloud:
@@ -35,13 +32,23 @@
 	- *Analyze*, which we can use to visualize the different point clouds for each individual mesh and see how well our optimization parameters did
 
 ### Section 3a: Grooming
-- Grooming has three main options:
+#### Mesh Grooming
+- Mesh Grooming has three main options:
 	- Fill Holes
 	- Smooth
 	- Remesh
-- Fill holes should always be selected for our purposes, this also speeds up grooming by quite a bit
+- Fill holes should always be selected for our purposes, as many of the scapula meshes have...you guessed it: holes!
+	- NOTE: If the grooming step is taking a long time for Scapulae, de select this option. Not recommended, but it was not completing on some computers so do this if needed.
 - Smoothing is prety self explanatory: it smoothes out the mesh. This *can* be useful, but if you enable it be sure to keep iteration amounts between 1 and 3, as going higher loses the surface detail that we need to generate accurate clouds.
 - Remesh modifies the mesh so that the triangles that make it up have more similar areas. This is very useful, but keep it at default. 
+#### Alignment
+- This section allows you to modify the alignment and the reflections of meshes
+- For our purposes, the *CreateProject.py* file mentioned above assigns the "right" group to any bone that contains "Raxes" in its name. Otherwise, it assigns the "left" group
+	- This is done because the Keisuke dataset is the only one with meshes from both sides of the body - Akira has only the left. The Keisuke dataset names corresponding meshes "Raxes" for the right side, and "Laxes" for the left, resulting in the above logic for the script.
+- Select the "Reflect" option to reflect the meshes so that they all have the same orientation.
+	- Change the "shape_file" option to "group_side" to enable this feature
+
+![[Pasted image 20220322160529.png]]
 
 ### Section 3b: Optimizing
 - There are a lot of options to choose from here, and they all have different effects. Here is what I have found through trial and error, and [the page on what the parameters mean](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#xml-parameter-file) and some [quick tips on optimization](http://sciinstitute.github.io/ShapeWorks/workflow/optimize.html#parameter-dictionary-in-python) from ShapeWorks:
@@ -81,6 +88,8 @@
 		- Doesn't affect optimization. Don't worry about this.
 
 ### Section 3c: Exporting Data
-- To export the key point data, click file->export->Export current particles
+- To export the key point data, just save the project! This will save all of the current particles in a folder with the same name as the project, just with "\_particles" appended.
 
-![[Pasted image 20220223150915.png]]
+![[Pasted image 20220322160701.png]]
+
+![[Pasted image 20220322160716.png]]
