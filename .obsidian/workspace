@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/May 2022/2022-05-06.md",
+            "file": "Daily Notes/January 2022/2022-05-16.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/May 2022/2022-05-06.md",
+                "file": "Daily Notes/January 2022/2022-05-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "2c142a8ffcbd40f4",
   "lastOpenFiles": [
+    "Daily Notes/January 2022/2022-05-16.md",
     "Daily Notes/May 2022/2022-05-06.md",
     "Daily Notes/January 2022/2022-05-06.md",
     "Templates/Daily Note Template.md",
@@ -116,7 +117,6 @@
     "Master's Degree Stuff.md",
     "Templates/Day Planner Template.md",
     "conflict-files-obsidian-git.md",
-    "Daily Notes/January 2022/2022-04-17.md",
-    "Senior Project/ShapeWorks Workflow.md"
+    "Daily Notes/January 2022/2022-04-17.md"
   ]
 }
