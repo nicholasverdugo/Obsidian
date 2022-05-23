@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/May 2022/2022-05-19.md",
+            "file": "Daily Notes/January 2022/2022-05-23.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/May 2022/2022-05-19.md",
+                "file": "Daily Notes/January 2022/2022-05-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +109,7 @@
   },
   "active": "a0ae6c19b806313e",
   "lastOpenFiles": [
+    "Daily Notes/January 2022/2022-05-23.md",
     "Daily Notes/May 2022/2022-05-19.md",
     "Daily Notes/May 2022/2022-05-17.md",
     "Daily Notes/May 2022/2022-05-06.md",
@@ -117,7 +118,6 @@
     "Templates/Daily Note Template.md",
     "Daily Notes/2022-01-26.md",
     "Daily Notes/2022-02-16.md",
-    "Master's Degree Stuff.md",
-    "Templates/Day Planner Template.md"
+    "Master's Degree Stuff.md"
   ]
 }
