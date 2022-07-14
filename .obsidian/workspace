@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/06_2022/2022-07-07.md",
+            "file": "Daily Notes/06_2022/2022-07-14.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/06_2022/2022-07-07.md",
+                "file": "Daily Notes/06_2022/2022-07-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +109,7 @@
   },
   "active": "a0ae6c19b806313e",
   "lastOpenFiles": [
+    "Daily Notes/06_2022/2022-07-14.md",
     "Daily Notes/06_2022/2022-07-07.md",
     "Daily Notes/06_2022/2022-06-27.md",
     "Daily Notes/06_2022/2022-07-01.md",
@@ -117,7 +118,6 @@
     "Senior Project/ShapeWorks notes.md",
     "Senior Project/Senior Project.md",
     "Daily Notes/01_2022/2022-01-14.md",
-    "Daily Notes/05_2022/2022-05-06.md",
-    "Daily Notes/06_2022/2022-06-08.md"
+    "Daily Notes/05_2022/2022-05-06.md"
   ]
 }
