@@ -1,5 +1,8 @@
 {
   "baseFontSize": 16,
   "translucency": false,
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Consolas",
+  "textFontFamily": "Bahnschrift",
+  "interfaceFontFamily": "Lucida Sans"
 }
