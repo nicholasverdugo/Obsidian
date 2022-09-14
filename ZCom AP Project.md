@@ -5,7 +5,7 @@
 #ZComProject
 - Monitor data codes and AP statuses actively
 	- Need to decide on the time interval for this - s, ms?
-- #JSON is the preferred file format (my module will be using it)
+- #JSON is the preferred file format (my module will be formatting the data from the APs as JSON and sending to Cerebro)
 - Backend is written in Java
 - Device I/O API should be able to send the majority of the information we need
 	- However, what we may want to achieve may not be provided by this API
@@ -20,8 +20,7 @@ TODO:
 
 9/12 Flowcharts for network and module (High Level, still in-process planning)
 
-<h2 align="center"> High Level Network View </h2>
-
+<h1> High Level Network View </h1>
 ```mermaid
 classDiagram
 Cerebro-->My Module : Requests AP data, may be MQTT subscriber
@@ -41,10 +40,9 @@ WiFi APs : power
 WiFi APs : MAC_addr
 WiFi APs : LAN_status
 WiFi APs : LAN_rate
-```
+``` 
 
-<h1 align="center">High Level Module View</h1>
-
+<h1>High Level Module View</h1>
 ```mermaid
 classDiagram
 MyModule-->MQTT Broker : Launches
