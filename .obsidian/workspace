@@ -11,7 +11,7 @@
           "state": {
             "file": "ZCom AP Project.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 174
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -94,9 +94,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
-  "active": "57298a6bcc79b478",
+  "active": "a0ae6c19b806313e",
   "lastOpenFiles": [
     "Daily Notes/05_2022/2022-05-06 1.md",
     "Daily Notes/09_2022/2022-09-14.md",
