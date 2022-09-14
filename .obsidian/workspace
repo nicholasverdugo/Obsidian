@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "92f646c72974a519",
+        "id": "a0ae6c19b806313e",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/09_2022/2022-09-12.md",
+            "file": "Daily Notes/09_2022/2022-09-14.md",
             "mode": "source",
             "source": false
           }
-=======
-          "type": "empty",
-          "state": {}
->>>>>>> origin/main
         }
       }
     ],
@@ -82,10 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Daily Notes/09_2022/2022-09-12.md",
-=======
->>>>>>> origin/main
+                "file": "Daily Notes/09_2022/2022-09-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "57298a6bcc79b478",
+  "active": "a0ae6c19b806313e",
   "lastOpenFiles": [
-    "Daily Notes/09_2022/2022-09-12.md",
-    "conflict-files-obsidian-git.md",
     "Daily Notes/09_2022/2022-09-01.md",
     "Daily Notes/08_2022/2022-08-31.md",
-    "Daily Notes/08_2022/2022-08-08.md",
+    "Daily Notes/2021/2021-09-21.md",
+    "MAD4401 Ch.2.md",
+    "Daily Notes/2021/2021-08-30.md",
+    "Daily Notes/2021/2021-08-18.md",
+    "Daily Notes/09_2022/2022-09-12.md",
     "Daily Notes/08_2022/2022-08-12.md",
     "Daily Notes/08_2022/2022-08-19.md",
-    "Daily Notes/08_2022/2022-08-16.md",
-    "Master's Degree Stuff.md",
-    "Daily Notes/07_2022/2022-07-21.md"
+    "Daily Notes/08_2022/2022-08-08.md"
   ]
 }
