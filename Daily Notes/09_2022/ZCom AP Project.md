@@ -4,21 +4,20 @@
 #ZComProject
 
 - Monitor data codes actively, and AP statuses
-- Email the Data Codes sheet to Moon
-- Make changes on Iveda's end to accomodate the format of these statuses if needed
-- JSON is preferred as it makes it easier to parse the process, backend is written in Java
+- JSON is the preferred file format (my module will be using it)
+- Backend is written in Java
 - Device I/O API should be able to handle the majority of this stuff
 - What we want to achieve may not be provided by this API
 - I need access to the device I/O API on Iveda's end in order to hook things up
 - If the device doesn't support MQTT we could cross that bridge to use webhooks
 - Need to get to the point where we can negotiate with ZCom to ask if they can add functionality that we need
-- Do we put it on our team or their team?
-- Learn AP Network Topology
+	- Do we put the responsibility on our team or their team?
+- Reference AP Network Topology
 - Write out the design logic in a document, topology-wise
-- Circle back to Moon on the questions and with the document
-- Discover how to map the uplink to the downlink API (?)
 
 
+
+<h2 align="center"> High Level Network View </h2>
 ```mermaid
 classDiagram
 Cerebro-->My Module : Requests AP data, may be MQTT subscriber
@@ -27,11 +26,11 @@ Cerebro..WiFi APs : Monitors via MyModule
 My Module-->ZCom WiFi Controller : Requests data
 My Module<--ZCom WiFi Controller : Sends data
 My Module-->Cerebro : Sends JSON formatted data via HTTP or MQTT?
-My Module : May act as MQTT broker to Cerebro
+My Module : Acts as MQTT broker to Cerebro
 My Module : formats data as JSON
 My Module : needs auth token for Cerebro connect
-My Module : maintains asset/device list to send to Cerebro?
-My Module : maintains AP locations for Cerebro?
+My Module : could maintain asset/device list to send to Cerebro
+My Module : could maintain AP locations for Cerebro
 ZCom WiFi Controller-->WiFi APs : Requests data
 ZCom WiFi Controller<--WiFi APs : Sends data
 WiFi APs : power
@@ -40,11 +39,13 @@ WiFi APs : LAN_status
 WiFi APs : LAN_rate
 ```
 
+<h1 align="center">High Level Module View</h1>
 
 ```mermaid
 classDiagram
-Module-->MQTT Broker : Launches
-Module..>Main Class : Begins loop on launch
+MyModule-->MQTT Broker : Launches
+MyModule : Contains security token to connect to Cerebro
+MyModule..>Main Class : Begins loop on launch
 MQTT Broker-->Main Class : Waits for data from
 Cerebro-->MQTT Broker : Subscribes to
 Cerebro<--MQTT Broker : Publishes to
@@ -55,8 +56,8 @@ WiFiController : LAN Status List
 WiFiController : LAN Rate List
 WiFiController : Any other desired data
 WiFiController-->Main Class : Sends raw data to
-Main Class-->JSONFormatter : Sends data to be formatted
-JSONFormatter-->MQTTHelper : Sends JSON data to
-MQTTHelper-->MQTT Broker : Sends JSON data to
+Main Class-->JSONFormatter : Calls in order to format data
+JSONFormatter-->MQTTHelper : Calls in order to hand data to broker
+MQTTHelper-->MQTT Broker : Hands JSON data to
 WiFiController-->Many APs : Gets data from
 ```
