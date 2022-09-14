@@ -1,23 +1,27 @@
-```Quote Here```
+> Well begun is half done.
+>
+> - <cite>Aristotle</cite>✍️
 
-# Daily Note
 #ZComProject
-
-- Monitor data codes actively, and AP statuses
-- JSON is the preferred file format (my module will be using it)
+- Monitor data codes and AP statuses actively
+	- Need to decide on the time interval for this - s, ms?
+- #JSON is the preferred file format (my module will be using it)
 - Backend is written in Java
-- Device I/O API should be able to handle the majority of this stuff
-- What we want to achieve may not be provided by this API
-- I need access to the device I/O API on Iveda's end in order to hook things up
-- If the device doesn't support MQTT we could cross that bridge to use webhooks
-- Need to get to the point where we can negotiate with ZCom to ask if they can add functionality that we need
+- Device I/O API should be able to send the majority of the information we need
+	- However, what we may want to achieve may not be provided by this API
+- If the device doesn't support #MQTT we could cross that bridge to use webhooks
+- Need to get to the point where we can negotiate with #ZCom to ask if they can add functionality that we need
 	- Do we put the responsibility on our team or their team?
 - Reference AP Network Topology
 - Write out the design logic in a document, topology-wise
 
+TODO:
+- Get deeper into the AP's capabilities - find out how we can get data from it ( #MQTT, #HTTP, proprietary method)
 
+9/12 Flowcharts for network and module (High Level, still in-process planning)
 
 <h2 align="center"> High Level Network View </h2>
+
 ```mermaid
 classDiagram
 Cerebro-->My Module : Requests AP data, may be MQTT subscriber

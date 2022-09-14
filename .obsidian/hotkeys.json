@@ -1,12 +1,4 @@
 {
-  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "obsidian-git:push": [
     {
       "modifiers": [
@@ -15,5 +7,13 @@
       "key": "G"
     }
   ],
-  "graph:open": []
+  "graph:open": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
 }

@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/09_2022/ZCom AP Project.md",
+            "file": "ZCom AP Project.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -62,6 +62,7 @@
       {
         "id": "8de6b643525b9f5c",
         "type": "tabs",
+        "dimension": 35.85657370517929,
         "children": [
           {
             "id": "4797c18a0b54e652",
@@ -70,24 +71,14 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "429c34e97fc77bd7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/09_2022/ZCom AP Project.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "410eb7e664cd3d84",
+        "type": "tabs",
+        "dimension": 64.14342629482071,
+        "children": [
           {
             "id": "6c319c2650e998bd",
             "type": "leaf",
@@ -103,20 +94,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a0ae6c19b806313e",
+  "active": "57298a6bcc79b478",
   "lastOpenFiles": [
-    "Daily Notes/09_2022/2022-09-13.md",
+    "Daily Notes/05_2022/2022-05-06 1.md",
     "Daily Notes/09_2022/2022-09-14.md",
+    "ZCom AP Project.md",
+    "Daily Notes/09_2022/2022-09-13.md",
     "MAD4401 Ch.2.md",
-    "Daily Notes/09_2022/ZCom AP Project.md",
     "Daily Notes/08_2022/2022-08-31.md",
     "Daily Notes/2021/2021-09-21.md",
     "Daily Notes/2021/2021-08-30.md",
     "Daily Notes/2021/2021-08-18.md",
-    "Daily Notes/09_2022/2022-09-12.md",
-    "Daily Notes/08_2022/2022-08-12.md"
+    "Daily Notes/09_2022/2022-09-12.md"
   ]
 }

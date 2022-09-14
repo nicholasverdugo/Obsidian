@@ -8,5 +8,8 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "showLineNumber": true,
+  "lineWrap": false,
+  "spellcheck": true
 }
