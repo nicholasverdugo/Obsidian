@@ -98,4 +98,13 @@ Destination Range | Interface | Address Count
 	- This describes transferring the packet from input to the correct output port
 	- *Switching Rate* - rate at which packets can be transferred from input to output, measured as a multiple of input/output line rate
 	- 3 different methods: memory, bus, and crossbar
-	- 
+	- Memory Switching
+		- First generation routers used this, they were computers with switching that was under direct control of the CPU
+		- Involved copying the packet into system memory and then copying back to the output port
+		- Speed was limited by memory bandwidth, because there were 2 bus crossings per packet
+	- Bus Switching
+		- Packet sent from input port memory to output port memory via shared bus
+		- Switching speed is limited by bus bandwidth
+	- Crossbar Switching
+		- Overcame the bandwidth limitations in place with bus switching
+		- 
