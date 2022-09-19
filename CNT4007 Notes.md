@@ -255,9 +255,15 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 	- Global information
 		- all routers have complete topology stored
 		- "link state" algos
+		- Dijkstra's algorithm
+			- From start node, find path of least cost to adjacent node
+			- Add this node to list of visited nodes
+			- Loop, checking all available adjacent nodes to visited nodes, and add the adjacent node that hasn't been visited yet with lowest cos
 	- Decentralized information
 		- router knows physically-connected neighbors, and link costs to their neighbors
-		- "distance vector" alg
+		- "distance vector" algos
+		- Bellman-ford algorithm
+			- 
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
