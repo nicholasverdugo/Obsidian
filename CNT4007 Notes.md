@@ -92,6 +92,10 @@ Destination Range | Interface | Address Count
 	2. The subnets would be 128.119.40.64/28, 128.119.40.80/28, 128.119.40.96/28, 128.119.40.112/28
 		1. This is same as above - 128.119.40.64/26 gives an upper limit on addresses to be 128.119.40.128, so each block gets 16 addresses, so the subnet bits becomes 28 (32-28=4, 2^4=16)
 
-
-
 ### Lecture Notes
+
+- Router Switching
+	- This describes transferring the packet from input to the correct output port
+	- *Switching Rate* - rate at which packets can be transferred from input to output, measured as a multiple of input/output line rate
+	- 3 different methods: memory, bus, and crossbar
+	- 
