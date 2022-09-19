@@ -154,15 +154,38 @@ Each router sends its link state, along with the cost of adjacent links, to all 
 
 b) Dijkstra's algorithm
 ```
-Initialize a hashmap of visited nodes N
+Initialization
+Visited = ({u,0})
 node u = source
 for v in nodes:
 	if v adjacent to u:
 		Dist(v) = cost(u, v)
-		
+		prev(v) = u
 	else 
 		Dist(v) = inf
-		
+		prev(v) = null
+
+Loop
+find the next node x not in Visited with shortest Dist
+add x to N
+update Dist(x) for all adjacent to x and not in N:
+	Dist(v) = min(Dist(v), Dist(x)+cost(x, v))
+	if Dist(x) + cost(x, v) < Dist(v)
+		prev(v) = x
+	# new cost to v is either old cost to v or known shortest path cost to x plus cost from x to v
+loop until every node is in Visited
 ```
+c) 
+```mermaid
+graph LR
+	id1([u])-- 2 ---id2([v]);
+	id1-- 1 ---id3([x]);
+	id4([w])-- 3 ---id3;
+	id4-- 1 ---id6([y]);
+	id6-- 2 ---id5([z]);
+```
+d)
+Destination | output Link
+
 
 ### Lecture Notes
