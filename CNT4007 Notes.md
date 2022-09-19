@@ -149,7 +149,7 @@ graph LR;
 	id6-- 2 ---id5;
 	id3-- 7 ---id6;
 ```
-a)
+a) Link State Routing Protocol
 Each router sends its link state, along with the cost of adjacent links, to all other routers. Once it receives link states from the other routes, it uses Dijkstra's algorithm to find the shortest path to any other node, and constructs a forwarding table from this.
 
 b) Dijkstra's algorithm
@@ -175,7 +175,7 @@ update Dist(x) for all adjacent to x and not in N:
 	# new cost to v is either old cost to v or known shortest path cost to x plus cost from x to v
 loop until every node is in Visited
 ```
-c) 
+c) Shortest Path
 ```mermaid
 graph LR
 	id1([u])-- 2 ---id2([v]);
@@ -184,8 +184,38 @@ graph LR
 	id4-- 1 ---id6([y]);
 	id6-- 2 ---id5([z]);
 ```
-d)
+d) Forwarding Table
 Destination | output Link
+-|-
+v | (u,v)
+x | (u,v)
+w | (u,x)
+y | (u,x)
+z | (u,x)
 
+2. Describe how a distance vector routing protocol works. Name a link state routing protocol. Give the pseudo code of the Bellman-Ford algorithm. Suppose a router x has two neighbors, u and v. Suppose cost(x, u) = 1 and cost(x, v) = 5. Update the distance vector at x based on the distance vectors of u and v below.
+a) Distance Vector Routing Protocol
+A router transmits the cost to each destination to its neighbors. Each router saves the most recent cost to its neighbors. This changes when it receives a different cost from before, or a link goes down.
+
+b) Link State Routing Protocol
+One example is OSPF (Open Shortest Path First)
+
+c) Bellman-Ford Code
+```
+dist(source,dest) = min{cost(source,neighbor 1) + dist(neighbor 1, dest), cost(source,neighbor 2) + dist(neighbor 2, dest), repeat for # neighbors}
+```
+d) Distance Vector
+At u, 
+Destination | distance 
+-|-
+x | 1 
+y 4 
+z 9 
+u 0 
+v 6 
+w 10 
+
+At v, 
+Destination distance x 5 u y x v w z 2 1 3 1 2 y 14 z 2 u 6 v 0 w 5
 
 ### Lecture Notes
