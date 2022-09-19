@@ -109,4 +109,15 @@ Destination Range | Interface | Address Count
 		- Overcame the bandwidth limitations in place with bus switching
 - DHCP - Dynamic Host Configuration Protocol
 	- Allows host devices to be given an IP address when they are connected to the network, and only when they are connected - this allows reuse of IP addresses, and support for devices that connect more temporarily (mobile devices)
-- 
+	- Can deliver address of first-hop router for client, name and IP of DNS server, and network mask (allows delineation between host and network addresses)
+- TCP - Transmission Control Protocol
+- UDP - User Datagram Protocol
+- NAT - Network Address Translation
+	- Since a local network sends all data from the same address, NAT is needed to translate incoming and outgoing traffic addresses so they get where they need to be
+Host | Destination
+-|-
+10.0.0.1, 3345 | 128.119.40.186
+Translated to 138.76.29.7, 5001 | 128.119.40.186
+Reply | Original Host
+128.119.40.186 | 138.76.29.7, 5001
+128.119.40.186 | Translated back to 10.0.0.1, 3345
