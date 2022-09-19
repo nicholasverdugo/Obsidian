@@ -277,4 +277,22 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Logically centralized control (Software Defined Networking, or SDN)
 			- A distinct (usually remote) controller interacts with local control agents (CAs) in routers in order to compute forwarding tables
 - ICMP (Internet Control Message Protocol)
+	- 
 - Network Management
+- Hierarchical OSPF
+	- two-levels : local area, and backbone
+		- Local Area
+			- Summarize distances to nets in own area, advertise to other area border routers
+		- Backbone
+			- run OSPF routing limited to backbone
+		- Boundary
+			- Connect to other ASes
+- BGP
+	- prefix + attributes = "route"
+		- i.e. BGP Advertisement: AS3, X
+
+## Chapter 6
+### Homework
+1. Suppose the information content of a packet is the bit pattern 1110 0110 1001 1101 and an even parity scheme is being used. What would the value of the field containing the parity bits be for the case of a two-dimensional parity scheme? Your answer should be such that a minimum-length checksum field is used.
+
+Right Column and Bottomr
