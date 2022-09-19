@@ -121,3 +121,11 @@ Translated to 138.76.29.7, 5001 | 128.119.40.186
 Reply | Original Host
 128.119.40.186 | 138.76.29.7, 5001
 128.119.40.186 | Translated back to 10.0.0.1, 3345
+
+NAT Traversal Problem
+- If a host wants to connect to a local address, it can't - since these are not accessible from outside of the network
+- 3 Solutions:
+	- 1. Forward requests made to specific ports on the server to a specific local address
+	- 2. UPnP (Universal Plug n Play) automates port map configuration
+	- 3. Host and router both connect to a relay outside of the network which bridges packets between destinations
+- 
