@@ -49,6 +49,29 @@ Frag3 : offset = 370 (0 + 1480 / 8)
 		3. 11100001 10000000 00010001 01110111
 
 ![[Pasted image 20220919102414.png]]
+a)
+Prefix Match | Link Interface
+-------------|---------------
+11100000 00 | 0
+11100000 01000000 | 1
+1110000 | 2
+11100001 1 | 3
+otherwise | 3
 
+b)
+1. This matches prefix 3 (otherwise) as it doesn't match any of the prefixes in the table
+2. This matches prefix 2 (1110000) as it is the longest prefix matched from the table
+3. This matches prefix 3 (11100001 1) as it is the longest prefix matched from the table
+
+Notes:
+- For the first (and longest) prefix you make, choose the range that is longest before the rest of the range becomes ones
+	- After this, choose the next longest before the range becomes ones and select everything up to the last one
+	- Repeat until the otherwise case
+- For otherwise case, find the longest string of like bits and flip the last zero to a one
+- Include otherwise as well
+
+6. There is a datagram network with 8-bit (00000000 through 11111111) host addresses. The router uses longest-prefix matching with the following table:
+
+Prefix 
 
 ### Lecture Notes
