@@ -251,11 +251,19 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 
 ### Lecture Notes
 - Traditional Routing Algorithms
-	- 
+	- Goal of routing protocol is to determine "good" / "best" paths for packets to take
+	- Global information
+		- all routers have complete topology stored
+		- "link state" algos
+	- Decentralized information
+		- router knows physically-connected neighbors, and link costs to their neighbors
+		- "distance vector" alg
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
 		- Per-router control (traditional)
-		- Logically centralized control (Software Defined Networking SD)
+			- Algorithms in each and every router interact with each other in order to compute forwarding tables
+		- Logically centralized control (Software Defined Networking, or SDN)
+			- A distinct (usually remote) controller interacts with local control agents (CAs) in routers in order to compute forwarding tables
 - ICMP (Internet Control Message Protocol)
 - Network Management
