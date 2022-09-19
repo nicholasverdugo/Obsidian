@@ -137,12 +137,32 @@ NAT Traversal Problem
 ### Homework
 1. Describe how a link state routing protocol works. Name a link state routing protocol. Give the pseudo code of the Dijkstra’s algorithm. Based on the network topology below, produce a shortest path tree from the Dijkstra’s algorithm with u being the source node. Construct a forwarding table from the shortest path tree.
 ```mermaid
-graph TD;
-	id1([u])-->id2([v]);
-	id1-->id3([x]);
-	id2-->id3;
-	id2-->id4([w]);
-	id1-->id4;
+graph LR;
+	id1([u])-- 2 ---id2([v]);
+	id1-- 1 ---id3([x]);
+	id2-- 2 ---id3;
+	id2-- 3 ---id4([w]);
+	id4-- 3 ---id3;
+	id1-- 5 ---id4;
+	id4-- 5 ---id5([z]);
+	id4-- 1 ---id6([y]);
+	id6-- 2 ---id5;
+	id3-- 7 ---id6;
+```
+a)
+Each router sends its link state, along with the cost of adjacent links, to all other routers. Once it receives link states from the other routes, it uses Dijkstra's algorithm to find the shortest path to any other node, and constructs a forwarding table from this.
+
+b) Dijkstra's algorithm
+```
+Initialize a hashmap of visited nodes N
+node u = source
+for v in nodes:
+	if v adjacent to u:
+		Dist(v) = cost(u, v)
+		
+	else 
+		Dist(v) = inf
+		
 ```
 
 ### Lecture Notes
