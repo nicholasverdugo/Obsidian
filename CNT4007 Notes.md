@@ -3,6 +3,8 @@
 > - <cite>Wayne Dyer</cite>✍️
 
 # CNT4007 Review !!!!
+## Chapter 3
+### Homework
 1. What are the two key functions of a router at the network layer?
 	1. The router builds a "forwarding table", so that it knows where to send packets when it receives them. Also, it handles packet forwarding, which utilizes the aforementioned forwarding table in order to determine each packet's output.
 2. Why is packet queueing needed at the output ports of the router?
@@ -11,24 +13,42 @@
 	1. 3 Fragments. First two carry 1480 bytes of data, third carries 1020. 1480+1480+1020=3980 bytes + 20 (header bytes) = 4000 bytes
 ```mermaid
 classDiagram
-Packet1-->Packet2
-Packet1 : Length = 1500 (1480 + 20)
-Packet1 : header = 20
-Packet1 : data = 1480 (1500+20)
-Packet1 : ID = x
-Packet1 : fragflag = 1 (is there another frag coming)
-Packet1 : offset = 0 (prev. offset + prev. frag data amt. / 8)
-Packet2-->Packet3
-Packet2 : Length = 1500 (1480 + 20)
-Packet2 : header = 20
-Packet2 : data = 1480 (1500+20)
-Packet2 : ID = x
-Packet2 : fragflag = 1 (is there another frag coming) 
-Packet2 : offset = 185 (0 + 1480 / 8)
-Packet3 : Length = 1040 (1020 + 20)
-Packet3 : header = 20
-Packet3 : data = 1480 (1500+20)
-Packet3 : ID = x
-Packet3 : fragflag = 0 (is there another frag coming)
-Packet3 : offset = 370 (0 + 1480 / 8)
+Packet-->Frag1
+Packet-->Frag2
+Packet-->Frag3
+Packet : 4000 bytes total
+Packet : 20 byte header
+Packet : 3 Fragments
+Packet : 1500 byte MTU
+Frag1 : Length = 1500 (1480 + 20)
+Frag1 : header = 20 bytes
+Frag1 : data = 1480 (1500+20)
+Frag1 : ID = x
+Frag1 : fragflag = 1 (is there another frag coming)
+Frag1 : offset = 0 (prev. offset + prev. frag data amt. / 8)
+Frag2 : Length = 1500 (1480 + 20)
+Frag2 : header = 20 bytes
+Frag2 : data = 1480 (1500+20)
+Frag2 : ID = x
+Frag2 : fragflag = 1 (is there another frag coming) 
+Frag2 : offset = 185 (0 + 1480 / 8)
+Frag3 : Length = 1040 (1020 + 20)
+Frag3 : header = 20 bytes
+Frag3 : data = 1480 (1500+20)
+Frag3 : ID = x
+Frag3 : fragflag = 0 (is there another frag coming)
+Frag3 : offset = 370 (0 + 1480 / 8)
 ```
+4. If you have a network with one publicly routable address, with 10 devices connected to it, can an external host initiate communication to these devices? 
+	1. No. In order to allow this to happen, the NAT entries for the devices must manually be inserted into the NAT table of the router.
+5. If you have a datagram network with 32-bit host addresses, and a router with 4 links (0 through 3) and packets are to be forwarded as below:
+	1. Provide forwarding table that has five entries, uses longest prefix matching, and forwards packets to the correct link interfaces. 
+	2. Describe how your forwarding table determines the appropriate link interface for datagrams with destination addresses:
+		1. 11001000 10010001 01010001 01010101 
+		2. 11100001 01000000 11000011 00111100 
+		3. 11100001 10000000 00010001 01110111
+
+![[Pasted image 20220919102414.png]]
+
+
+### Lecture Notes
