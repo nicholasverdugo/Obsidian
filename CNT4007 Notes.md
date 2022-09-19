@@ -107,4 +107,6 @@ Destination Range | Interface | Address Count
 		- Switching speed is limited by bus bandwidth
 	- Crossbar Switching
 		- Overcame the bandwidth limitations in place with bus switching
-		- 
+- DHCP - Dynamic Host Configuration Protocol
+	- Allows host devices to be given an IP address when they are connected to the network, and only when they are connected - this allows reuse of IP addresses, and support for devices that connect more temporarily (mobile devices)
+- 
