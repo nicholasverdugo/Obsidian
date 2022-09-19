@@ -70,8 +70,23 @@ Notes:
 - For otherwise case, find the longest string of like bits and flip the last zero to a one
 - Include otherwise as well
 
-6. There is a datagram network with 8-bit (00000000 through 11111111) host addresses. The router uses longest-prefix matching with the following table:
+6. There is a datagram network with 8-bit (00000000 through 11111111) host addresses. The router uses longest-prefix matching with the below table. For each prefix match, give the range of destination addresses and the number of addresses in the range.
 
-Prefix 
+Prefix Match | Interface
+-|-
+1 | 0
+10 | 1
+111 | 2
+otherwise | 3
+
+Destination Range | Interface | Address Count
+-|-|-
+110*00000* -> 110*11111* | 0 | 32 (5 "new" bits = 2^5 bits)
+10*000000* -> 10*111111* | 1 | 64 (6 "new" bits = 2^6 bits)
+111*00000* -> 111*11111* | 2 | 32 (5 "new" bits = 2^5 bits)
+0*0000000* -> 1*1111111* | 3 | 32 (5 "new" bits = 2^7 bits)
+
+7. Consider a subnet with prefix 128.119.40.128/26. Give an example of one IP address (of form xxx.xxx.xxx.xxx) that can be assigned to this network. Suppose an ISP owns the block of addresses of the form 128.119.40.64/26. Suppose it wants to create four subnets from this block, with each block having the same number of IP addresses. What are the prefixes (of form a.b.c.d/x) for the four subnets?
+	1. Any IP in the range 128.119.40.128
 
 ### Lecture Notes
