@@ -209,13 +209,44 @@ At u,
 Destination | distance 
 -|-
 x | 1 
-y 4 
-z 9 
-u 0 
-v 6 
-w 10 
-
+y | 4 
+z | 9 
+u | 0 
+v | 6 
+w | 10 
 At v, 
-Destination distance x 5 u y x v w z 2 1 3 1 2 y 14 z 2 u 6 v 0 w 5
+Destination | distance 
+-|-
+x | 5 
+y | 14
+z | 2
+u | 6
+v | 0
+w | 5
+At x,
+Destination | distance
+-|-
+x | 0
+y | 5
+z | 7
+u | 1
+v | 5
+w | 10
+
+3. How does router 1a learns the existence of X? How does router 2d build its forwarding table that includes both internal address prefixes within its AS and external address prefixes in other ASes?
+![[Pasted image 20220919133842.png]]
+a) 
+3a first learns of X via intra-AS routing protocol. This is advertised to router 2c via eBGP. This is disseminated to 2a via iBGP, and then advertised to 1c via eBGP again. Finally, iBGP is used to get this information from 1c to 1a.
+
+AS : Autonomous system, or "domain" - this is an aggregate region of routers
+intra-AS routing : tells one router where all others are in an AS
+iBGP : intra Border Gateway Protocol : sends router location from one router to another in an AS
+eBGP : extra Border Gateway Protocol : sends router location from one router to another between ASes
+
+b) 
+Router 2d builds its local forwarding tables, with entries for internal address prefixes being learned by an intra-AS routing protocol and entries for external address prefixes being learned by BGP.
+
+4. Name one advantage of software-defined networking vs traditional router design.
+Easier network management, flexibility in traffic engineering, cheaper or better-performing switches than routers in packet forwarding.
 
 ### Lecture Notes
