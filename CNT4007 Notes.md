@@ -258,12 +258,17 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Dijkstra's algorithm
 			- From start node, find path of least cost to adjacent node
 			- Add this node to list of visited nodes
-			- Loop, checking all available adjacent nodes to visited nodes, and add the adjacent node that hasn't been visited yet with lowest cos
+			- Loop, checking all available adjacent nodes to visited nodes, and add the adjacent node that hasn't been visited yet with lowest cost until every node has been visited
+			- O(n^2) time complexity, but can be O(nlogn + e)
 	- Decentralized information
 		- router knows physically-connected neighbors, and link costs to their neighbors
 		- "distance vector" algos
 		- Bellman-ford algorithm
-			- 
+			- Dynamic Programming solution
+			- Find path of least distance to each node on the graph
+			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc for each adjacent node }
+			- dist function call runs recursively to return shortest distance
+			- O(n^2) per node
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
