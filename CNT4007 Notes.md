@@ -250,3 +250,12 @@ Router 2d builds its local forwarding tables, with entries for internal address 
 Easier network management, flexibility in traffic engineering, cheaper or better-performing switches than routers in packet forwarding.
 
 ### Lecture Notes
+- Traditional Routing Algorithms
+	- 
+- Software Defined Networking
+	- Two network-layer functions: forwarding (data plane), and routing (control plane)
+	- There are two approaches to structuring the control plane:
+		- Per-router control (traditional)
+		- Logically centralized control (Software Defined Networking SD)
+- ICMP (Internet Control Message Protocol)
+- Network Management
