@@ -3,7 +3,7 @@
 > - <cite>Wayne Dyer</cite>✍️
 
 # CNT4007 Review !!!!
-## Chapter 3
+## Chapters 3 and 4
 ### Homework
 1. What are the two key functions of a router at the network layer?
 	1. The router builds a "forwarding table", so that it knows where to send packets when it receives them. Also, it handles packet forwarding, which utilizes the aforementioned forwarding table in order to determine each packet's output.
@@ -93,7 +93,6 @@ Destination Range | Interface | Address Count
 		1. This is same as above - 128.119.40.64/26 gives an upper limit on addresses to be 128.119.40.128, so each block gets 16 addresses, so the subnet bits becomes 28 (32-28=4, 2^4=16)
 
 ### Lecture Notes
-
 - Router Switching
 	- This describes transferring the packet from input to the correct output port
 	- *Switching Rate* - rate at which packets can be transferred from input to output, measured as a multiple of input/output line rate
@@ -128,4 +127,22 @@ NAT Traversal Problem
 	- 1. Forward requests made to specific ports on the server to a specific local address
 	- 2. UPnP (Universal Plug n Play) automates port map configuration
 	- 3. Host and router both connect to a relay outside of the network which bridges packets between destinations
-- 
+- IPv6
+	- Changed header size to 40 bytes, with no fragmentation allowed
+	- Removed checksum entirely
+	- IPv6 datagrams are carried as payloads in an IPv4 datagram to allow backwards compatibility
+		- IPv6 router would connect to x amount of IPv4 routers, which would transmit this "wrapped" IPv6 packet in IPv4, then once it reaches the destination IPv6 router the wrapper would be removed
+
+## Chapter 5
+### Homework
+1. Describe how a link state routing protocol works. Name a link state routing protocol. Give the pseudo code of the Dijkstra’s algorithm. Based on the network topology below, produce a shortest path tree from the Dijkstra’s algorithm with u being the source node. Construct a forwarding table from the shortest path tree.
+```mermaid
+graph TD;
+	id1([u])-->id2([v]);
+	id1-->id3([x]);
+	id2-->id3;
+	id2-->id4([w]);
+	id1-->id4;
+```
+
+### Lecture Notes
