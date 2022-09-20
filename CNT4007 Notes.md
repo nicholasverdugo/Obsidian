@@ -188,7 +188,7 @@ d) Forwarding Table
 Destination | output Link
 -|-
 v | (u,v)
-x | (u,v)
+x | (u,x)
 w | (u,x)
 y | (u,x)
 z | (u,x)
@@ -199,6 +199,7 @@ A router transmits the cost to each destination to its neighbors. Each router sa
 
 b) Link State Routing Protocol
 One example is OSPF (Open Shortest Path First)
+Distance-Vector is RIP
 
 c) Bellman-Ford Code
 ```
@@ -263,15 +264,12 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 	- Decentralized information
 		- router knows physically-connected neighbors, and link costs to their neighbors
 		- "distance vector" algos
-<<<<<<< HEAD
-=======
 		- Bellman-ford algorithm
 			- Dynamic Programming solution
 			- Find path of least distance to each node on the graph
-			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc for each adjacent node }
+			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc. for each adjacent node }
 			- dist function call runs recursively to return shortest distance
 			- O(n^2) per node
->>>>>>> origin/main
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
@@ -280,7 +278,6 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Logically centralized control (Software Defined Networking, or SDN)
 			- A distinct (usually remote) controller interacts with local control agents (CAs) in routers in order to compute forwarding tables
 - ICMP (Internet Control Message Protocol)
-	- 
 - Network Management
 - Hierarchical OSPF
 	- two-levels : local area, and backbone
