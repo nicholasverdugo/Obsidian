@@ -255,9 +255,23 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 	- Global information
 		- all routers have complete topology stored
 		- "link state" algos
+		- Dijkstra's algorithm
+			- From start node, find path of least cost to adjacent node
+			- Add this node to list of visited nodes
+			- Loop, checking all available adjacent nodes to visited nodes, and add the adjacent node that hasn't been visited yet with lowest cost until every node has been visited
+			- O(n^2) time complexity, but can be O(nlogn + e)
 	- Decentralized information
 		- router knows physically-connected neighbors, and link costs to their neighbors
 		- "distance vector" algos
+<<<<<<< HEAD
+=======
+		- Bellman-ford algorithm
+			- Dynamic Programming solution
+			- Find path of least distance to each node on the graph
+			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc for each adjacent node }
+			- dist function call runs recursively to return shortest distance
+			- O(n^2) per node
+>>>>>>> origin/main
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
@@ -266,4 +280,73 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Logically centralized control (Software Defined Networking, or SDN)
 			- A distinct (usually remote) controller interacts with local control agents (CAs) in routers in order to compute forwarding tables
 - ICMP (Internet Control Message Protocol)
+	- 
 - Network Management
+- Hierarchical OSPF
+	- two-levels : local area, and backbone
+		- Local Area
+			- Summarize distances to nets in own area, advertise to other area border routers
+		- Backbone
+			- run OSPF routing limited to backbone
+		- Boundary
+			- Connect to other ASes
+- BGP
+	- prefix + attributes = "route"
+		- i.e. BGP Advertisement: AS3, X
+
+## Chapter 6
+### Homework
+1. Suppose the information content of a packet is the bit pattern 1110 0110 1001 1101 and an even parity scheme is being used. What would the value of the field containing the parity bits be for the case of a two-dimensional parity scheme? Your answer should be such that a minimum-length checksum field is used.
+
+Right Column and Bottom Row are for parity bits
+
+1 1 1 0 1
+0 1 1 0 0
+1 0 0 1 0
+1 1 0 1 1
+1 1 0 0 0
+
+2. Consider the 7-bit generator, G=10011, and suppose that D has the value 1010101010. What is the value of R?
+
+First, use G to find the amount of zeroes to add to D. Bit one has a 1, so therefore its degree is 4, so we add 4 zeroes to D.
+
+Then, we divide D  + 0000 / G to find R.
+
+10011 / 1010101010*0000* = 101101110 R 0100
+
+![[Pasted image 20220919195921.png]]
+
+3. Suppose four active nodes—nodes A, B, C and D—are competing for access to a channel using slotted ALOHA. Assume each node has an infinite number of packets to send. Each node attempts to transmit in each slot with probability p. The first slot is numbered slot 1, the second slot is numbered slot 2, and so on. 
+
+a. What is the probability that node A succeeds for the first time in slot 5? 
+We need to calculate p(A succeeds and no others do) = p(A)
+p(A) = p(A)p(not B)p(not C)p(not D) = p(1-p)(1-p)(1-p) = 3p * (1-p)
+Now, we need to use this for the 5th slot.
+p(A succeeds for the first time in slot 5) = 4 * p(A fails) * p(A succeeds) = 4 * (1 - p(A)) * p(A) = 4 * (1 - (3p * (1-p))) * 3p(1-p)
+
+b. What is the probability that some node (either A, B, C or D) succeeds in slot 4? 
+p(one node succeeds) = 3p * (1-p)
+p(any one of the nodes succeeds) = 4 * 3p * (1-p)
+
+c. What is the probability that the first success occurs in slot 3? 
+p(no node succeeds) = 1 - 12p * (1-p)
+p(no success in first two slots but success in third) = p(fail in first two) * p(success in third) = 2 * (1 - 12p * (1-p)) * (12p * (1-p))
+
+d. What is the efficiency of this four-node system?
+efficiency = p(success) = 12p * (1-p)
+
+4. Recall that with the CSMA/CD protocol, the adapter waits K * 512 bit times after a collision, where K is drawn randomly. For K= 100, how long does the adapter wait until returning to Step 2 for a 10 Mbps broadcast channel? For a 100 Mbps broadcast channel?
+
+K * 512 / 10,000,000 = 5.12 milliseconds
+K * 512 / 100,000,000 = 512 microseconds
+
+5. Let’s consider the operation of a learning switch in the context of a network in which 6 nodes labeled A through F are star connected into an Ethernet switch. Suppose that (i) B sends a frame to E, (ii) E replies with a frame to B, (iii) A sends a frame to B, (iv) B replies with a frame to A. The switch table is initially empty. Show the state of the switch table before and after each of these events. For each of these events, identify the link(s) on which the transmitted frame will be forwarded, and briefly justify your answers.
+
+Action | Switch Table State | Link(s) Packet is Forwarded To | Explanation
+-|-|-|-
+B -> E | Switch learns interface for MAC of B | A,C,D,E,F | Table is empty, so it needs to send to all connections to find the interface corresponding with the MAC of E
+E -> B | Switch learns interface for MAC of E | B | Switch already knows interface corresponding with MAC of B
+A -> B | Switch learns interface for MAC of A | B | Switch already knows interface corresponding with MAC of B
+B -> A | Switch state remains the same | A | Switch already knows interface corresponding with MAC of A
+
+![[Pasted image 20220919204434.png]]
