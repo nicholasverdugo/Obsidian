@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -108,15 +109,15 @@
   },
   "active": "92f646c72974a519",
   "lastOpenFiles": [
-    "ZCom AP Project.md",
+    "Daily Notes/09_2022/2022-09-20.md",
     "CNT4007 Notes.md",
+    "ZCom AP Project.md",
     "Daily Notes/09_2022/2022-09-19.md",
     "Daily Notes/09_2022/2022-09-14.md",
     "conflict-files-obsidian-git.md",
     "Daily Notes/08_2022/2022-08-31.md",
     "Daily Notes/09_2022/2022-09-01.md",
     "Daily Notes/09_2022/2022-09-12.md",
-    "Daily Notes/09_2022/2022-09-13.md",
-    "Daily Notes/08_2022/2022-08-08.md"
+    "Daily Notes/09_2022/2022-09-13.md"
   ]
 }

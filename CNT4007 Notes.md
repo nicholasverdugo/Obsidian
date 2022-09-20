@@ -84,7 +84,7 @@ Destination Range | Interface | Address Count
 110*00000* -> 110*11111* | 0 | 32 (5 "new" bits = 2^5 bits)
 10*000000* -> 10*111111* | 1 | 64 (6 "new" bits = 2^6 bits)
 111*00000* -> 111*11111* | 2 | 32 (5 "new" bits = 2^5 bits)
-0*0000000* -> 1*1111111* | 3 | 32 (5 "new" bits = 2^7 bits)
+0*0000000* -> 1*1111111* | 3 | 128 (7 "new" bits = 2^7 bits)
 
 7. Consider a subnet with prefix 128.119.40.128/26. Give an example of one IP address (of form xxx.xxx.xxx.xxx) that can be assigned to this network. Suppose an ISP owns the block of addresses of the form 128.119.40.64/26. Suppose it wants to create four subnets from this block, with each block having the same number of IP addresses. What are the prefixes (of form a.b.c.d/x) for the four subnets?
 	1. Any IP in the range 128.119.40.128 to 128.119.40.191 (64 possible addresses)
