@@ -44,17 +44,11 @@ WiFi APs : LAN_rate
 
 <h1>High Level Module View</h1>
 ```mermaid
-classDiagram
-SmartConnect<-->MQTT Broker
-SmartConnect : Contains security token to connect to Cerebro
-MQTT Broker-->WiFiController : Waits for data from
-WiFiController : Power States
-WiFiController : MAC Address List
-WiFiController : LAN Status List
-WiFiController : LAN Rate List
-WiFiController : Any other desired data
-APMonitor<-->SmartConnect
-JSONFormatter<-->APMonitor
-JSONFormatter : Converts data from APs to JSON and hands back to APMonitor
-WiFiController-->Many APs : Gets data from
+flowchart LR
+	Cerebro<-- Receives JSON from -->SmartConnect;
+	SmartConnect<-- pubs/subs to -->MQTTBroker;
+	WiFiController-- Sends AP Data to -->MQTTBroker;
+	APMonitor-- is a part of -->SmartConnect;
+	JSONFormatter<-->APMonitor;
+	ManyAPs-- Sends AP data to -->WiFiController;	
 ```
