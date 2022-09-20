@@ -347,3 +347,18 @@ A -> B | Switch learns interface for MAC of A | B | Switch already knows interfa
 B -> A | Switch state remains the same | A | Switch already knows interface corresponding with MAC of A
 
 ![[Pasted image 20220919204434.png]]
+
+Consider the 7-bit generator, G=10011, and suppose that D has the value 1010101010. What is the value of R?
+
+10101010100000/10011
+   11001
+   10011
+    10100
+    10011
+        11110
+        10011
+          11010
+          10011
+           10010
+           10011
+	        R 0100
