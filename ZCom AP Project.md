@@ -44,11 +44,16 @@ WiFi APs : LAN_rate
 
 <h1>High Level Module View</h1>
 ```mermaid
-flowchart TD
-	Cerebro<-- Receives JSON from via HTTP -->SmartConnect;
-	SmartConnect<-- pubs/subs to -->MQTTBroker;
-	WiFiController-- Sends AP Data to -->MQTTBroker;
-	SmartConnect-- calls -->APMonitor;
-	APMonitor-- Calls to format AP data as JSON -->JSONFormatter;
-	
+classDiagram
+Cerebro<--SmartConnect : Receives JSON via HTTP
+SmartConnect<-->MQTTBroker : pubs/subs to 
+SmartConnect-->APMonitor : calls
+APMonitor-->JSONFormatter : Calls to format AP data as JSON
+MQTTBroker<--WiFiController : Sends AP Data to
+JSONFormatter-->SmartConnect : Sends JSON data to
+
+class SmartConnect {
+	access token to Cerebro
+	Runs APMonitor module perpetually
+}
 ```
