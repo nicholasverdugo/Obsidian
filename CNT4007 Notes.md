@@ -339,4 +339,11 @@ K * 512 / 100,000,000 = 512 microseconds
 
 5. Let’s consider the operation of a learning switch in the context of a network in which 6 nodes labeled A through F are star connected into an Ethernet switch. Suppose that (i) B sends a frame to E, (ii) E replies with a frame to B, (iii) A sends a frame to B, (iv) B replies with a frame to A. The switch table is initially empty. Show the state of the switch table before and after each of these events. For each of these events, identify the link(s) on which the transmitted frame will be forwarded, and briefly justify your answers.
 
-B -> E | Switch learns interface for MAC address of B | A,C,D,E,F | Table is empty, so it needs to send to all connections to find the interface corresponding with the MAC of E
+Action | Switch Table State | Link(s) Packet is Forwarded To | Explanation
+-|-|-|-
+B -> E | Switch learns interface for MAC of B | A,C,D,E,F | Table is empty, so it needs to send to all connections to find the interface corresponding with the MAC of E
+E -> B | Switch learns interface for MAC of E | B | Switch already knows interface corresponding with MAC of B
+A -> B | Switch learns interface for MAC of A | B | Switch already knows interface corresponding with MAC of B
+B -> A | Switch state remains the same | A | Switch already knows interface corresponding with MAC of A
+
+### Lecture Notes
