@@ -345,3 +345,5 @@ B -> E | Switch learns interface for MAC of B | A,C,D,E,F | Table is empty, so i
 E -> B | Switch learns interface for MAC of E | B | Switch already knows interface corresponding with MAC of B
 A -> B | Switch learns interface for MAC of A | B | Switch already knows interface corresponding with MAC of B
 B -> A | Switch state remains the same | A | Switch already knows interface corresponding with MAC of A
+
+![[Pasted image 20220919204434.png]]
