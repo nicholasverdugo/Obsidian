@@ -54,6 +54,10 @@ JSONFormatter-->SmartConnect : Sends JSON data to
 
 class SmartConnect {
 	access token to Cerebro
-	Runs APMonitor module perpetually
+	Runs APMonitor module
+}
+class APMonitor {
+	subscribes to MQTT broker for AP data
+	runs loop every x time to convert new data to JSON and give to SmartConnect
 }
 ```
