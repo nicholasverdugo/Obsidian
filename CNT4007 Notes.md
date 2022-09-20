@@ -257,7 +257,7 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- "link state" algos
 	- Decentralized information
 		- router knows physically-connected neighbors, and link costs to their neighbors
-		- "distance vector" alg
+		- "distance vector" algos
 - Software Defined Networking
 	- Two network-layer functions: forwarding (data plane), and routing (control plane)
 	- There are two approaches to structuring the control plane:
