@@ -295,4 +295,34 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 ### Homework
 1. Suppose the information content of a packet is the bit pattern 1110 0110 1001 1101 and an even parity scheme is being used. What would the value of the field containing the parity bits be for the case of a two-dimensional parity scheme? Your answer should be such that a minimum-length checksum field is used.
 
-Right Column and Bottomr
+Right Column and Bottom Row are for parity bits
+
+1 1 1 0 1
+0 1 1 0 0
+1 0 0 1 0
+1 1 0 1 1
+1 1 0 0 0
+
+2. Consider the 7-bit generator, G=10011, and suppose that D has the value 1010101010. What is the value of R?
+
+First, use G to find the amount of zeroes to add to D. Bit one has a 1, so therefore its degree is 4, so we add 4 zeroes to D.
+
+Then, we divide D  + 0000 / G to find R.
+
+10011 / 1010101010*0000* = 101101110 R 0100
+
+![[Pasted image 20220919195921.png]]
+
+3. Suppose four active nodes—nodes A, B, C and D—are competing for access to a channel using slotted ALOHA. Assume each node has an infinite number of packets to send. Each node attempts to transmit in each slot with probability p. The first slot is numbered slot 1, the second slot is numbered slot 2, and so on. 
+
+a. What is the probability that node A succeeds for the first time in slot 5? 
+
+
+b. What is the probability that some node (either A, B, C or D) succeeds in slot 4? 
+
+
+c. What is the probability that the first success occurs in slot 3? 
+
+
+d. What is the efficiency of this four-node system?
+
