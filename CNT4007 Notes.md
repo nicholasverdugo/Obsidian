@@ -322,8 +322,8 @@ Now, we need to use this for the 5th slot.
 p(A succeeds for the first time in slot 5) = 4 * p(A fails) * p(A succeeds) = 4 * (1 - p(A)) * p(A) = 4 * (1 - (3p * (1-p))) * 3p(1-p)
 
 b. What is the probability that some node (either A, B, C or D) succeeds in slot 4? 
-p(any node succeeds) = 3p * (1-p)
-p(one of the nodes succeeds) = 12p * (1-p)
+p(one node succeeds) = 3p * (1-p)
+p(any one of the nodes succeeds) = 4 * 3p * (1-p)
 
 c. What is the probability that the first success occurs in slot 3? 
 p(no node succeeds) = 1 - 12p * (1-p)
@@ -331,3 +331,12 @@ p(no success in first two slots but success in third) = p(fail in first two) * p
 
 d. What is the efficiency of this four-node system?
 efficiency = p(success) = 12p * (1-p)
+
+4. Recall that with the CSMA/CD protocol, the adapter waits K * 512 bit times after a collision, where K is drawn randomly. For K= 100, how long does the adapter wait until returning to Step 2 for a 10 Mbps broadcast channel? For a 100 Mbps broadcast channel?
+
+K * 512 / 10,000,000 = 5.12 milliseconds
+K * 512 / 100,000,000 = 512 microseconds
+
+5. Let’s consider the operation of a learning switch in the context of a network in which 6 nodes labeled A through F are star connected into an Ethernet switch. Suppose that (i) B sends a frame to E, (ii) E replies with a frame to B, (iii) A sends a frame to B, (iv) B replies with a frame to A. The switch table is initially empty. Show the state of the switch table before and after each of these events. For each of these events, identify the link(s) on which the transmitted frame will be forwarded, and briefly justify your answers.
+
+B -> E | Switch learns interface for MAC address of B | A,C,D,E,F | Table is empty, so it needs to send to all connections to find the interface corresponding with the MAC of E
