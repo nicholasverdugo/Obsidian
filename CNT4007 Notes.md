@@ -316,13 +316,18 @@ Then, we divide D  + 0000 / G to find R.
 3. Suppose four active nodes—nodes A, B, C and D—are competing for access to a channel using slotted ALOHA. Assume each node has an infinite number of packets to send. Each node attempts to transmit in each slot with probability p. The first slot is numbered slot 1, the second slot is numbered slot 2, and so on. 
 
 a. What is the probability that node A succeeds for the first time in slot 5? 
-
+We need to calculate p(A succeeds and no others do) = p(A)
+p(A) = p(A)p(not B)p(not C)p(not D) = p(1-p)(1-p)(1-p) = 3p * (1-p)
+Now, we need to use this for the 5th slot.
+p(A succeeds for the first time in slot 5) = 4 * p(A fails) * p(A succeeds) = 4 * (1 - p(A)) * p(A) = 4 * (1 - (3p * (1-p))) * 3p(1-p)
 
 b. What is the probability that some node (either A, B, C or D) succeeds in slot 4? 
-
+p(any node succeeds) = 3p * (1-p)
+p(one of the nodes succeeds) = 12p * (1-p)
 
 c. What is the probability that the first success occurs in slot 3? 
-
+p(no node succeeds) = 1 - 12p * (1-p)
+p(no success in first two slots but success in third) = p(fail in first two) * p(success in third) = 2 * (1 - 12p * (1-p)) * (12p * (1-p))
 
 d. What is the efficiency of this four-node system?
-
+efficiency = p(success) = 12p * (1-p)
