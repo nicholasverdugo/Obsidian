@@ -23,17 +23,17 @@ TODO:
 <h1> High Level Network View </h1>
 ```mermaid
 classDiagram
-Cerebro-->My Module : Requests AP data, may be MQTT subscriber
+Cerebro<--SmartConnect : Sends JSON formatted data via HTTP
 Cerebro : Cloud Management Server
-Cerebro..WiFi APs : Monitors via MyModule
-My Module-->ZCom WiFi Controller : Requests data
-My Module<--ZCom WiFi Controller : Sends data
-My Module-->Cerebro : Sends JSON formatted data via HTTP or MQTT?
-My Module : Acts as MQTT broker to Cerebro
-My Module : formats data as JSON
-My Module : needs auth token for Cerebro connect
-My Module : could maintain asset/device list to send to Cerebro
-My Module : could maintain AP locations for Cerebro
+Cerebro..WiFi APs : Monitors via SmartConnect
+SmartConnect-->MQTT : Subs to
+SmartConnect<--APMonitor : is one part of
+APMonitor : Handles AP Data
+APMonitor : can maintain asset/device list to send to Cerebro
+APMonitor : can maintain AP locations for Cerebro
+APMonitor : formats data as JSON
+MQTT<--ZCom WiFi Controller : Data is sent to
+SmartConnect : needs auth token for Cerebro connect
 ZCom WiFi Controller-->WiFi APs : Requests data
 ZCom WiFi Controller<--WiFi APs : Sends data
 WiFi APs : power
@@ -44,22 +44,11 @@ WiFi APs : LAN_rate
 
 <h1>High Level Module View</h1>
 ```mermaid
-classDiagram
-MyModule-->MQTT Broker : Launches
-MyModule : Contains security token to connect to Cerebro
-MyModule..>Main Class : Begins loop on launch
-MQTT Broker-->Main Class : Waits for data from
-Cerebro-->MQTT Broker : Subscribes to
-Cerebro<--MQTT Broker : Publishes to
-Main Class-->WiFiController : Requests data on start of each loop
-WiFiController : Power States
-WiFiController : MAC Address List
-WiFiController : LAN Status List
-WiFiController : LAN Rate List
-WiFiController : Any other desired data
-WiFiController-->Main Class : Sends raw data to
-Main Class-->JSONFormatter : Calls in order to format data
-JSONFormatter-->MQTTHelper : Calls in order to hand data to broker
-MQTTHelper-->MQTT Broker : Hands JSON data to
-WiFiController-->Many APs : Gets data from
+flowchart TD
+	Cerebro<-- Receives JSON from via HTTP -->SmartConnect;
+	SmartConnect<-- pubs/subs to -->MQTTBroker;
+	WiFiController-- Sends AP Data to -->MQTTBroker;
+	SmartConnect-- calls -->APMonitor;
+	APMonitor-- Calls to format AP data as JSON -->JSONFormatter;
+	
 ```

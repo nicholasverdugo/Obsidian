@@ -84,7 +84,7 @@ Destination Range | Interface | Address Count
 110*00000* -> 110*11111* | 0 | 32 (5 "new" bits = 2^5 bits)
 10*000000* -> 10*111111* | 1 | 64 (6 "new" bits = 2^6 bits)
 111*00000* -> 111*11111* | 2 | 32 (5 "new" bits = 2^5 bits)
-0*0000000* -> 1*1111111* | 3 | 32 (5 "new" bits = 2^7 bits)
+0*0000000* -> 1*1111111* | 3 | 128 (7 "new" bits = 2^7 bits)
 
 7. Consider a subnet with prefix 128.119.40.128/26. Give an example of one IP address (of form xxx.xxx.xxx.xxx) that can be assigned to this network. Suppose an ISP owns the block of addresses of the form 128.119.40.64/26. Suppose it wants to create four subnets from this block, with each block having the same number of IP addresses. What are the prefixes (of form a.b.c.d/x) for the four subnets?
 	1. Any IP in the range 128.119.40.128 to 128.119.40.191 (64 possible addresses)
@@ -188,7 +188,7 @@ d) Forwarding Table
 Destination | output Link
 -|-
 v | (u,v)
-x | (u,v)
+x | (u,x)
 w | (u,x)
 y | (u,x)
 z | (u,x)
@@ -199,6 +199,7 @@ A router transmits the cost to each destination to its neighbors. Each router sa
 
 b) Link State Routing Protocol
 One example is OSPF (Open Shortest Path First)
+Distance-Vector is RIP
 
 c) Bellman-Ford Code
 ```
@@ -266,7 +267,7 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Bellman-ford algorithm
 			- Dynamic Programming solution
 			- Find path of least distance to each node on the graph
-			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc for each adjacent node }
+			- dist(start, goal) = minimum { cost(start, adjacent) + dist(adjacent, goal), etc. for each adjacent node }
 			- dist function call runs recursively to return shortest distance
 			- O(n^2) per node
 - Software Defined Networking
@@ -277,7 +278,6 @@ Easier network management, flexibility in traffic engineering, cheaper or better
 		- Logically centralized control (Software Defined Networking, or SDN)
 			- A distinct (usually remote) controller interacts with local control agents (CAs) in routers in order to compute forwarding tables
 - ICMP (Internet Control Message Protocol)
-	- 
 - Network Management
 - Hierarchical OSPF
 	- two-levels : local area, and backbone
@@ -347,3 +347,18 @@ A -> B | Switch learns interface for MAC of A | B | Switch already knows interfa
 B -> A | Switch state remains the same | A | Switch already knows interface corresponding with MAC of A
 
 ![[Pasted image 20220919204434.png]]
+
+Consider the 7-bit generator, G=10011, and suppose that D has the value 1010101010. What is the value of R?
+
+10101010100000/10011
+   11001
+   10011
+    10100
+    10011
+        11110
+        10011
+          11010
+          10011
+           10010
+           10011
+	        R 0100
