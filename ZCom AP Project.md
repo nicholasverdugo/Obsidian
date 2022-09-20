@@ -27,11 +27,11 @@ Cerebro<--SmartConnect : Sends JSON formatted data via HTTP
 Cerebro : Cloud Management Server
 Cerebro..WiFi APs : Monitors via SmartConnect
 SmartConnect-->MQTT : Subs to
-SmartConnect<--AP Monitoring Module : is one part of
-AP Monitoring Module : Handles AP Data
-AP Monitoring Module : could maintain asset/device list to send to Cerebro
-AP Monitoring Module : could maintain AP locations for Cerebro
-AP Monitoring Module : formats data as JSON
+SmartConnect<--APMonitor : is one part of
+APMonitor : Handles AP Data
+APMonitor : can maintain asset/device list to send to Cerebro
+APMonitor : can maintain AP locations for Cerebro
+APMonitor : formats data as JSON
 MQTT<--ZCom WiFi Controller : Data is sent to
 SmartConnect : needs auth token for Cerebro connect
 ZCom WiFi Controller-->WiFi APs : Requests data
@@ -45,20 +45,16 @@ WiFi APs : LAN_rate
 <h1>High Level Module View</h1>
 ```mermaid
 classDiagram
-SmartConnect-->MQTT Broker : Subs to
+SmartConnect<-->MQTT Broker
 SmartConnect : Contains security token to connect to Cerebro
-SmartConnect..>APMonitor : Begins loop on launch
 MQTT Broker-->WiFiController : Waits for data from
-Cerebro<--SmartConnect : Receives data from
-APMonitor-->WiFiController : Requests data on start of each loop
 WiFiController : Power States
 WiFiController : MAC Address List
 WiFiController : LAN Status List
 WiFiController : LAN Rate List
 WiFiController : Any other desired data
-WiFiController-->Main Class : Sends raw data to
-APMonitor-->JSONFormatter : Calls in order to format data
-JSONFormatter<--MQTTHelper : Hands raw data to
-JSONFormatter-->APMonitor : Hands JSON data to
+APMonitor<-->SmartConnect
+JSONFormatter<-->APMonitor
+JSONFormatter : Converts data from APs to JSON and hands back to APMonitor
 WiFiController-->Many APs : Gets data from
 ```
