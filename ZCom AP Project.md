@@ -62,3 +62,12 @@ class APMonitor {
 }
 ```
 
+Meeting 10/6 Re: diagrams
+- RESTful API layer -> MQTT layer translation needs to be removed, ideally we want ZCom to be able to connect to MQTT on their end
+- My application layer
+	- need to design it so we can develop an API to hook into ZCOM's RESTful APIs
+	- Cloud has MQTT broker in place already, but in other areas we may need a standalone deployment so this requires us to use more resources on site if that needs to happen
+	- We have to build something to connect to the ZCOM APs
+	- Need to get MOVING
+	- Meeting w Dmitry next week
+	- Need to be able to answer the whys of the problem
