@@ -61,3 +61,4 @@ class APMonitor {
 	runs loop every x time to convert new data to JSON and give to SmartConnect
 }
 ```
+
