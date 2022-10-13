@@ -16,3 +16,6 @@ Frog fight C1
 10 - Caaw
 8 - Macros
 4 - Beef
+
+Traveling to Eiselcross!!
+Everyone is owed 
