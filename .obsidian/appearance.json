@@ -4,5 +4,6 @@
   "cssTheme": "Everforest",
   "monospaceFontFamily": "Consolas",
   "textFontFamily": "Bahnschrift",
-  "interfaceFontFamily": "Lucida Sans"
+  "interfaceFontFamily": "Lucida Sans",
+  "accentColor": ""
 }
