@@ -85,4 +85,4 @@ Meeting 10/6 Re: diagrams
 		- Between Dmitry and Lobo, who is an embedded engineer
 		- Dev for smart gateway
 		- Thread goes over getting that connected to MQTT over AWS
-		- Calvin has a script, Moon will send to me
+		- Calvin has a script, Dmitry will have him send to me
