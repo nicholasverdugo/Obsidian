@@ -86,3 +86,9 @@ Meeting 10/6 Re: diagrams
 		- Dev for smart gateway
 		- Thread goes over getting that connected to MQTT over AWS
 		- Calvin has a script, Dmitry will have him send to me
+
+Meeting 11/10
+- Sid is meeting w/ ZCom atm re: enabling MQTT on their devices
+- Going to be writing documentation instead of code :^)
+- Plan is to assume RESTful API support in the interim while we wait for ZCom to support MQTT
+- Documentation draft on mapping RESTful API to MQTT (?)
