@@ -1,5 +1,7 @@
 {
-  "quoteFormat": "> {content}\n>\n> &mdash; <cite>{author}</cite>✍️",
+  "quoteFormat": "> {content}\n> <cite>{author}</cite>✍️",
   "quoteTagFormat": ">\n> ---\n> {tags}",
-  "showTags": false
+  "quoteTemplatePlaceholder": "{{qotd}}",
+  "showTags": false,
+  "placeholderInterval": 5
 }

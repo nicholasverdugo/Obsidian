@@ -15,5 +15,14 @@
       ],
       "key": "L"
     }
+  ],
+  "editor:toggle-checklist-status": [],
+  "templater-obsidian:Templates/UFIT Planner Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
   ]
 }
