@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b874f3088d122752",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/UFIT Planner {{date}}.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9ac9b19b79c2863a",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
