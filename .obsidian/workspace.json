@@ -13,21 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZCom AP Project.md",
+                "file": "Templates/UFIT Planner {{date}}.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5f0f673a4e420bf0",
+            "id": "9ac9b19b79c2863a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/UFIT Planner Template.md",
+                "file": "UFIT Daily Checklists/UFIT {{date}}.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/UFIT Planner Template.md",
+                "file": "UFIT Daily Checklists/UFIT {{date}}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,12 +127,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5f0f673a4e420bf0",
+  "active": "9ac9b19b79c2863a",
   "lastOpenFiles": [
-    "UFIT Daily Checklists/Untitled.md",
+    "Templates/UFIT Planner {{date}}.md",
+    "UFIT Daily Checklists/UFIT {{date}}.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
-    "Templates/UFIT Planner Template.md",
     "UFIT Daily Checklists/11-16 UFIT.md",
     "ZCom AP Project.md",
     "CNT4007 Notes.md",
