@@ -1,5 +1,5 @@
 # Tickets
-1. *ticket here*
+- [ ] item
 
 ## Notes
 - *note*
