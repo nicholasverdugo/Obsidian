@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/UFIT Planner {{date}}.md",
+                "file": "UFIT Daily Checklists/UFIT 11-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/UFIT Planner {{date}}.md",
+                "file": "UFIT Daily Checklists/UFIT 11-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +129,8 @@
   },
   "active": "9ac9b19b79c2863a",
   "lastOpenFiles": [
-    "UFIT Daily Checklists/UFIT 11-16.md",
     "Templates/UFIT Planner {{date}}.md",
+    "UFIT Daily Checklists/UFIT 11-16.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
     "UFIT Daily Checklists/11-16 UFIT.md",
