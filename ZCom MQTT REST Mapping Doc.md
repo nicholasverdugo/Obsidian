@@ -33,4 +33,3 @@ Convert JSON to string, and get byte array of the string in order to add to MQTT
 ### Considerations
 - Must be UTF-8 charset when mapping to byte array
 - Python includes a json library that can be leveraged to encode and decode messages from APs and to broker
-- 
