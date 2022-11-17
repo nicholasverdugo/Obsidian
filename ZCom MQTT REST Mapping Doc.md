@@ -13,12 +13,17 @@ ZCom APs communicate via HTTP, transferring JSON formatted information.
 3. JSON is handed to MQTT broker after being mapped
 
 ### Mapping Function
-
 Receive JSON via HTTP (REST API)
 Can contain data as follows:
 ```
 {
-	"power" : "boolean"
-	""
+	"power" : "boolean",
+	"status" : "string",
+	"Traffic_info" : "string",
+	"AP_grouplist" : {
+		...
+	},
+	...
 }
 ```
+
