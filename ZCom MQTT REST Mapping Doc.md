@@ -15,4 +15,3 @@ ZCom APs communicate via HTTP, transferring JSON formatted information.
 ### Mapping Function
 
 Receive JSON via HTTP (REST API)
-
