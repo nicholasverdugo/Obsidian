@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ac9b19b79c2863a",
+            "id": "e1f24ecce6d3d74a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-16.md",
+                "file": "ZCom MQTT REST Mapping Doc.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-16.md",
+                "file": "ZCom MQTT REST Mapping Doc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,10 +115,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9ac9b19b79c2863a",
+  "active": "57298a6bcc79b478",
   "lastOpenFiles": [
-    "Templates/UFIT Planner {{date}}.md",
     "UFIT Daily Checklists/UFIT 11-16.md",
+    "Templates/UFIT Planner {{date}}.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
     "UFIT Daily Checklists/11-16 UFIT.md",
