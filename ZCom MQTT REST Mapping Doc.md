@@ -26,4 +26,3 @@ Can contain data as follows:
 
 Convert JSON to string, and get byte array of the string in order to add to MQTT message
 - Must be UTF-8 charset
-- If using Python, can leverage json.dumps(with received json being stored as a dict) in order to publish to the broker (Cerebro)
