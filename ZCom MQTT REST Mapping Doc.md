@@ -27,7 +27,8 @@ Can contain data as follows:
 
 Full data codes:
 ![[Pasted image 20221117163328.png]]
-Convert JSON to string, and get byte array of the string in order to add to MQTT message
+
+Convert JSON to string, and get byte array of the string in order to add to MQTT message. Format MQTT as usual and send.
 
 ### Considerations
 - Must be UTF-8 charset when mapping to byte array
