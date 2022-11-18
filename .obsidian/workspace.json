@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1f24ecce6d3d74a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-16.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e5a5ee20bf992075",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
