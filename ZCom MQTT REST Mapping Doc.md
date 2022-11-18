@@ -4,14 +4,14 @@ ZCom APs communicate via HTTP, transferring JSON formatted information.
 This JSON data must be received by Cerebro, mapped to MQTT, and received by Cerebro's MQTT broker.
 
 ## Control Flow
-### Loop
-1. AP sends JSON via HTTP to Cerebro
-2. This is mapped to an MQTT message
-3. JSON is delivered to MQTT broker after being mapped
-4. Data can be parsed and acted upon from here
+### Main Function
+1. **Send GET** request via HTTP to all desired APs
+2. **Run map function** *for all* APs that respond
+3. **Publish mapped information** to Cerebro via MQTT
+4. **Repeat**
 
 ### Mapping Function
-Receive JSON via HTTP (REST API)
+Receive JSON via HTTP (RESTful API)
 Can contain data as follows:
 ```
 {
@@ -47,9 +47,10 @@ Data available for request from APs:
 | power                     |                  |
 | time_stamp                |                  |
 
-Convert JSON to string, and get byte array of the string in order to add to MQTT message. Format MQTT as usual and send.
+Convert JSON to string (if not already encoded as one), and get byte array of the string in order to add to MQTT message. Format MQTT as usual and send.
 
 ## Considerations
 - Must be UTF-8 charset when mapping to byte array
-- Python includes a json library that can be leveraged to encode and decode messages from APs and to broker
 - Need to decide MQTT QoS level (likely 1?)
+- Potential for creation of aliases for needed information to reduce data load
+- Will the client be subscribing to Cerebro? Likely not, 
