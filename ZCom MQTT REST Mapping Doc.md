@@ -7,8 +7,11 @@ This JSON data must be received by Cerebro, mapped to MQTT, and received by Cere
 ### Main Function
 1. **Send GET** request via HTTP to all desired APs
 2. **Run map function** *for all* APs that respond
+	3. Should we combine all data into one JSON file or make one per AP?
 3. **Publish mapped information** to Cerebro via MQTT
 4. **Repeat**
+	1. What should the time interval be for this? Seconds? Minutes? 
+		1. Probably not more than minutes
 
 ### Mapping Function
 Receive JSON via HTTP (RESTful API)
@@ -19,9 +22,9 @@ Can contain data as follows:
 	"status" : "string",
 	"Traffic_info" : "string",
 	"AP_grouplist" : {
-		...
+		etc...
 	},
-	...
+	etc...
 }
 ```
 
@@ -47,10 +50,12 @@ Data available for request from APs:
 | power                     |                  |
 | time_stamp                |                  |
 
-Convert JSON to string (if not already encoded as one), and get byte array of the string in order to add to MQTT message. Format MQTT as usual and send.
+Convert JSON to string (if not already encoded as one), and get byte array of the string in order to add to MQTT message. Create MQTT object as usual and publish.
 
 ## Considerations
 - Must be UTF-8 charset when mapping to byte array
 - Need to decide MQTT QoS level (likely 1?)
 - Potential for creation of aliases for needed information to reduce data load
-- Will the client be subscribing to Cerebro? Likely not, 
+- Will the client be subscribing to Cerebro? 
+	- Likely not, information will be acted on at the physical location of APs
+	- If not, no translation from MQTT to HTTP will need to occur
