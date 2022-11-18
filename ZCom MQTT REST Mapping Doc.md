@@ -54,8 +54,7 @@ Convert JSON to string (if not already encoded as one), and get byte array of th
 
 ## Considerations
 - Must be UTF-8 charset when mapping to byte array
-- Need to decide MQTT QoS level (likely 1?)
+- UTC Time
+- Need AP Request Data format
+- MQTT QoS 1
 - Potential for creation of aliases for needed information to reduce data load
-- Will the client be subscribing to Cerebro? 
-	- Likely not, information will be acted on at the physical location of APs
-	- If not, no translation from MQTT to HTTP will need to occur
