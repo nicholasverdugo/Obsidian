@@ -7,6 +7,8 @@ Create an affordable, rugged, portable mini computer using a Raspberry Pi. This 
 3. [Keyboard](https://www.amazon.com/gp/product/B08D615GPG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 4. [Power Supply](https://www.amazon.com/gp/product/B073S3LQ6Q/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1)
 	1. This is not a final choice, needs more capacity I think
+5. [Kiwix - Wikipedia,  etc.](https://www.kiwix.org/en/download/)
+	1. Probably able to put pretty much everything on here
 
 ## Information to Store
 - Local area maps
