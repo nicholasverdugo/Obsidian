@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5a5ee20bf992075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-18.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e6a8518bece4f16e",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,10 +118,10 @@
   "active": "e6a8518bece4f16e",
   "lastOpenFiles": [
     "ZCom AP Project.md",
+    "ZCom MQTT REST Mapping Doc.md",
     "RPI Bug Out Box Development.md",
     "UFIT Daily Checklists/UFIT 11-18.md",
     "UFIT Daily Checklists/UFIT 11-16.md",
-    "ZCom MQTT REST Mapping Doc.md",
     "Templates/UFIT Planner {{date}}.md",
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",

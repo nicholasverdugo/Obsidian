@@ -6,7 +6,7 @@ This JSON data must be received by Cerebro, mapped to MQTT, and received by Cere
 ## Control Flow
 ### Main Function
 1. **Send GET** request via HTTP to all desired APs
-2. **Run map function** *for all* APs that respond
+2. **Run map function** for all APs that respond
 	3. Should we combine all data into one JSON file or make one per AP?
 3. **Publish mapped information** to Cerebro via MQTT
 4. **Repeat**
