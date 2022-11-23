@@ -52,9 +52,20 @@ Data available for request from APs:
 
 Convert JSON to string (if not already encoded as one), and get byte array of the string in order to add to MQTT message. Create MQTT object as usual and publish.
 
+### Data Formats
+- Station data examples:
+![[Pasted image 20221122224839.png]]
+![[Pasted image 20221122224821.png]]
+- Thin AP data list examples:
+![[Pasted image 20221122224738.png]]
+![[Pasted image 20221122224722.png]]
+![[Pasted image 20221122224647.png]]
+
+### Enabling REST API
+![[Pasted image 20221122224934.png]]
+
 ## Considerations
 - Must be UTF-8 charset when mapping to byte array
 - UTC Time
-- Need AP Request Data format
 - MQTT QoS 1
-- Potential for creation of aliases for needed information to reduce data load
+- Potential for creation of aliases to reduce data load

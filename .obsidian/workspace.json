@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RPI Bug Out Box Development.md",
+                "file": "ZCom MQTT REST Mapping Doc.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPI Bug Out Box Development.md",
+                "file": "ZCom MQTT REST Mapping Doc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +130,8 @@
   },
   "active": "e6a8518bece4f16e",
   "lastOpenFiles": [
+    "ZCom AP Project.md",
+    "RPI Bug Out Box Development.md",
     "UFIT Daily Checklists/UFIT 11-18.md",
     "UFIT Daily Checklists/UFIT 11-16.md",
     "ZCom MQTT REST Mapping Doc.md",
@@ -136,8 +139,6 @@
     "Templates/Day Planner Template.md",
     "Templates/Daily Note Template.md",
     "UFIT Daily Checklists/11-16 UFIT.md",
-    "ZCom AP Project.md",
-    "CNT4007 Notes.md",
-    "Frozen Sick Notes.md"
+    "CNT4007 Notes.md"
   ]
 }
