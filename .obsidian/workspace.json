@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "92f646c72974a519",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "CNT4007 Notes.md",
-            "mode": "source",
-            "source": false
+        "id": "27a56ccdf523c446",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef935d148e4b3f7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UFIT Daily Checklists/UFIT 11-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -49,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNT4007 Notes.md",
+                "file": "UFIT Daily Checklists/UFIT 11-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +114,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd60348a256a6709",
+  "active": "ef935d148e4b3f7f",
   "lastOpenFiles": [
-    "Frozen Sick Notes.md",
+    "UFIT Daily Checklists/UFIT 11-18.md",
+    "UFIT Daily Checklists/UFIT 11-28.md",
+    "UFIT Daily Checklists/UFIT 11-16.md",
+    "Images/Pasted image 20221122224647.png",
+    "ZCom MQTT REST Mapping Doc.md",
     "ZCom AP Project.md",
-    "Daily Notes/09_2022/2022-09-20.md",
-    "CNT4007 Notes.md",
-    "Daily Notes/09_2022/2022-09-19.md",
-    "Daily Notes/09_2022/2022-09-14.md",
-    "conflict-files-obsidian-git.md",
-    "Daily Notes/08_2022/2022-08-31.md",
-    "Daily Notes/09_2022/2022-09-01.md",
-    "Daily Notes/09_2022/2022-09-12.md"
+    "RPI Bug Out Box Development.md",
+    "Templates/UFIT Planner {{date}}.md",
+    "Templates/Day Planner Template.md",
+    "Templates/Daily Note Template.md"
   ]
 }

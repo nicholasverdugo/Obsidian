@@ -1,8 +1,9 @@
 {
   "baseFontSize": 17,
   "translucency": false,
-  "cssTheme": "Everforest",
+  "cssTheme": "Dracula for Obsidian",
   "monospaceFontFamily": "Consolas",
   "textFontFamily": "Bahnschrift",
-  "interfaceFontFamily": "Lucida Sans"
+  "interfaceFontFamily": "Lucida Sans",
+  "accentColor": "#fc6e51"
 }

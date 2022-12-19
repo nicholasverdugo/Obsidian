@@ -71,3 +71,24 @@ Meeting 10/6 Re: diagrams
 	- Need to get MOVING
 	- Meeting w Dmitry next week
 	- Need to be able to answer the whys of the problem
+- Dmitry meeting
+	- MQTT is the way to go, as it is the standard 
+	- AWS makes it easy, lots of documentation
+	- Main work will be with getting communication working and implemented with on-site devices
+	- We need to find out (re: speak with Sid) how to get a connector with MQTT implemented on ZCom's end.
+		- Should be straightforward to implement this
+	- Remove the application layer, and have the connector reside on the embedded level
+	- We already have a few devices working with our system
+		- Smart Pole
+	- Get Python scripts implemented in order to test system connections
+	- Dmitry will send me the details of getting this done to me
+		- Between Dmitry and Lobo, who is an embedded engineer
+		- Dev for smart gateway
+		- Thread goes over getting that connected to MQTT over AWS
+		- Calvin has a script, Dmitry will have him send to me
+
+Meeting 11/10
+- Sid is meeting w/ ZCom atm re: enabling MQTT on their devices
+- Going to be writing documentation instead of code :^)
+- Plan is to assume RESTful API support in the interim while we wait for ZCom to support MQTT
+- Documentation draft on mapping RESTful API to MQTT (?)
