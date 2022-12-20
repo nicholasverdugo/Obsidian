@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "27a56ccdf523c446",
+        "id": "c3cabff7257495ae",
         "type": "tabs",
         "children": [
           {
-            "id": "ef935d148e4b3f7f",
+            "id": "057a1d45d5d618e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNT4007 Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grad",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNT4007 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,17 +108,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ef935d148e4b3f7f",
+  "active": "4797c18a0b54e652",
   "lastOpenFiles": [
-    "Daily Notes/01_2022/2022-01-14.md",
-    "Untitled.md",
-    "ZCom MQTT REST Mapping Doc.md",
-    "ZCom AP Project.md",
-    "CNT4007 Notes.md",
-    "Frozen Sick Notes.md",
-    "Master's Plan.md",
+    "tasks/task-1kr8.md",
+    "Daily Notes/2021/2021-09-21.md",
+    "Daily Notes/2021/2021-09-14.md",
+    "Daily Notes/2021/2021-08-31.md",
+    "Untitled 1.md",
     "UFIT Daily Checklists/UFIT 11-28.md",
-    "UFIT Daily Checklists/UFIT 11-18.md",
-    "UFIT Daily Checklists/UFIT 11-16.md"
+    "Templates/UFIT Planner {{date}}.md",
+    "Templates/Day Planner Template.md",
+    "Templates/Daily Note Template.md",
+    "ZCom MQTT REST Mapping Doc.md"
   ]
 }
