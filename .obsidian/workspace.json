@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/01_2022/2022-01-14.md",
+                "file": "CNT4007 Notes.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/01_2022/2022-01-14.md",
+                "file": "CNT4007 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,7 @@
   },
   "active": "ef935d148e4b3f7f",
   "lastOpenFiles": [
+    "Daily Notes/01_2022/2022-01-14.md",
     "Untitled.md",
     "ZCom MQTT REST Mapping Doc.md",
     "ZCom AP Project.md",
@@ -123,7 +124,6 @@
     "Master's Plan.md",
     "UFIT Daily Checklists/UFIT 11-28.md",
     "UFIT Daily Checklists/UFIT 11-18.md",
-    "UFIT Daily Checklists/UFIT 11-16.md",
-    "Images/Pasted image 20221122224647.png"
+    "UFIT Daily Checklists/UFIT 11-16.md"
   ]
 }
