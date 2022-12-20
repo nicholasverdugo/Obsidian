@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-28.md",
+                "file": "Daily Notes/01_2022/2022-01-14.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5110321044922
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UFIT Daily Checklists/UFIT 11-28.md",
+                "file": "Daily Notes/01_2022/2022-01-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,20 +111,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "ef935d148e4b3f7f",
   "lastOpenFiles": [
-    "UFIT Daily Checklists/UFIT 11-18.md",
-    "UFIT Daily Checklists/UFIT 11-28.md",
-    "UFIT Daily Checklists/UFIT 11-16.md",
-    "Images/Pasted image 20221122224647.png",
+    "Untitled.md",
     "ZCom MQTT REST Mapping Doc.md",
     "ZCom AP Project.md",
-    "RPI Bug Out Box Development.md",
-    "Templates/UFIT Planner {{date}}.md",
-    "Templates/Day Planner Template.md",
-    "Templates/Daily Note Template.md"
+    "CNT4007 Notes.md",
+    "Frozen Sick Notes.md",
+    "Master's Plan.md",
+    "UFIT Daily Checklists/UFIT 11-28.md",
+    "UFIT Daily Checklists/UFIT 11-18.md",
+    "UFIT Daily Checklists/UFIT 11-16.md",
+    "Images/Pasted image 20221122224647.png"
   ]
 }

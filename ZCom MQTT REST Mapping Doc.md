@@ -16,7 +16,7 @@ This JSON data must be received by Cerebro, mapped to MQTT, and received by Cere
 ### Mapping Function
 Receive JSON via HTTP (RESTful API)
 Can contain data as follows:
-```
+```json
 {
 	"power" : "boolean",
 	"status" : "string",
