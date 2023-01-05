@@ -4,29 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c3cabff7257495ae",
+        "id": "2e5a30d9a3a842e1",
         "type": "tabs",
         "children": [
           {
-            "id": "057a1d45d5d618e5",
+            "id": "af1f8b02c3e86920",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "46f91d4c97679a21",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "UFIT Daily Checklists/UFIT 1-5.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UFIT Daily Checklists/UFIT 1-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,17 +125,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "46f91d4c97679a21",
+  "active": "af1f8b02c3e86920",
   "lastOpenFiles": [
+    "UFIT Daily Checklists/UFIT 11-28.md",
+    "Old Stuff/PHI3681 Notebook.md",
+    "Class Notes/Untitled.md",
+    "Class Notes/Untitled 1.md",
+    "Old Stuff/Internship 2022/ZCom AP Project.md",
+    "Master's Plan.md",
+    "Old Stuff/Internship 2022/ZCom MQTT REST Mapping Doc.md",
     "tasks/task-1kr8.md",
     "Daily Notes/2021/2021-09-21.md",
-    "Daily Notes/2021/2021-09-14.md",
-    "Daily Notes/2021/2021-08-31.md",
-    "Untitled 1.md",
-    "UFIT Daily Checklists/UFIT 11-28.md",
-    "Templates/UFIT Planner {{date}}.md",
-    "Templates/Day Planner Template.md",
-    "Templates/Daily Note Template.md",
-    "ZCom MQTT REST Mapping Doc.md"
+    "Daily Notes/2021/2021-09-14.md"
   ]
 }
