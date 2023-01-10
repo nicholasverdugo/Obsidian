@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Category",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922
+    "width": 244.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -78,7 +79,13 @@
               "type": "calendar",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b0bab5f2ea2fa721",
+        "type": "tabs",
+        "children": [
           {
             "id": "429c34e97fc77bd7",
             "type": "leaf",
@@ -107,11 +114,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -127,15 +135,15 @@
   },
   "active": "af1f8b02c3e86920",
   "lastOpenFiles": [
+    "Daily Notes/06_2022/2022-06-10.md",
+    "Class Notes/Human Computer Interaction/1-10-23.md",
     "Class Notes/Analysis of Algorithms/1-10-23 Syllabus.md",
     "UFIT Daily Checklists/UFIT 1-5.md",
     "UFIT Daily Checklists/UFIT 11-28.md",
     "Old Stuff/PHI3681 Notebook.md",
-    "Class Notes/Human Computer Interaction/1-10-23.md",
     "Old Stuff/Internship 2022/ZCom AP Project.md",
     "Master's Plan.md",
     "Old Stuff/Internship 2022/ZCom MQTT REST Mapping Doc.md",
-    "tasks/task-1kr8.md",
-    "Daily Notes/2021/2021-09-21.md"
+    "tasks/task-1kr8.md"
   ]
 }
