@@ -110,7 +110,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -133,7 +133,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "af1f8b02c3e86920",
+  "active": "6c319c2650e998bd",
   "lastOpenFiles": [
     "Daily Notes/06_2022/2022-06-10.md",
     "Class Notes/Human Computer Interaction/1-10-23.md",
