@@ -1,8 +1,8 @@
 # Tickets
-- [ ] Dr. Cooke Printer
-- [ ] Monya box delivery to Ayers
+- [x] Dr. Cooke Printer
+- [x] Monya box delivery to Ayers
 	- [ ] Pick up a laptop from them too?
-- [ ] VariDesk for Nichole Parks
+- [x] VariDesk for Nichole Parks
 
 ## Notes
 - *note*
