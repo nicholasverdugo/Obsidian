@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af1f8b02c3e86920",
+            "id": "d16cb39d3eb2b973",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-10-23.md",
+                "file": "Grad School Research/1-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-10-23.md",
+                "file": "Grad School Research/1-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,10 +133,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "af1f8b02c3e86920",
+  "active": "d16cb39d3eb2b973",
   "lastOpenFiles": [
-    "Daily Notes/05_2022/2022-05-06.md",
     "Class Notes/Human Computer Interaction/1-10-23.md",
+    "Daily Notes/05_2022/2022-05-06.md",
     "Daily Notes/06_2022/2022-06-10.md",
     "Class Notes/Analysis of Algorithms/1-10-23 Syllabus.md",
     "UFIT Daily Checklists/UFIT 1-5.md",
