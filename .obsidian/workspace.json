@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d16cb39d3eb2b973",
+            "id": "0a4a4ce2f5c83e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/1-12.md",
+                "file": "Class Notes/Human Computer Interaction/1-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/1-12.md",
+                "file": "Class Notes/Human Computer Interaction/1-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,13 +134,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d16cb39d3eb2b973",
+  "active": "0a4a4ce2f5c83e31",
   "lastOpenFiles": [
-    "Grad School Research/1-10.md",
     "Class Notes/Human Computer Interaction/1-10-23.md",
+    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Grad School Research/1-10.md",
     "Daily Notes/05_2022/2022-05-06.md",
     "Daily Notes/06_2022/2022-06-10.md",
-    "Class Notes/Intro to Machine Learning/1-12.md",
     "UFIT Daily Checklists/UFIT 1-5.md",
     "UFIT Daily Checklists/UFIT 11-28.md",
     "Old Stuff/PHI3681 Notebook.md",
