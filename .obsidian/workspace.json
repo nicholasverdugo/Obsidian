@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Senior Project/ShapeWorks notes.md",
+                "file": "Class Notes/Human Computer Interaction/1-12.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Senior Project/ShapeWorks notes.md",
+                "file": "Class Notes/Human Computer Interaction/1-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,10 +133,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "57298a6bcc79b478",
+  "active": "0a4a4ce2f5c83e31",
   "lastOpenFiles": [
-    "Images/Pasted image 20220215203442.png",
     "Senior Project/ShapeWorks notes.md",
+    "Images/Pasted image 20220215203442.png",
     "Lit Review/Notes on Papers.md",
     "Grad School Research/1-10.md",
     "Class Notes/Intro to Machine Learning/1-12.md",
