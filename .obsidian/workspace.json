@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-12.md",
+                "file": "Senior Project/ShapeWorks notes.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Discriminative",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922,
-    "collapsed": true
+    "width": 244.5110321044922
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-12.md",
+                "file": "Senior Project/ShapeWorks notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,17 +133,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0a4a4ce2f5c83e31",
+  "active": "57298a6bcc79b478",
   "lastOpenFiles": [
-    "Class Notes/Human Computer Interaction/1-10-23.md",
-    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Images/Pasted image 20220215203442.png",
+    "Senior Project/ShapeWorks notes.md",
+    "Lit Review/Notes on Papers.md",
     "Grad School Research/1-10.md",
+    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Class Notes/Human Computer Interaction/1-12.md",
+    "Class Notes/Human Computer Interaction/1-10-23.md",
     "Daily Notes/05_2022/2022-05-06.md",
     "Daily Notes/06_2022/2022-06-10.md",
-    "UFIT Daily Checklists/UFIT 1-5.md",
-    "UFIT Daily Checklists/UFIT 11-28.md",
-    "Old Stuff/PHI3681 Notebook.md",
-    "Old Stuff/Internship 2022/ZCom AP Project.md",
-    "Master's Plan.md"
+    "UFIT Daily Checklists/UFIT 1-5.md"
   ]
 }
