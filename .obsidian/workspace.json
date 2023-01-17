@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/1-17.md",
+                "file": "Class Notes/Human Computer Interaction/1-12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c75d59e6d8b271f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class Notes/Human Computer Interaction/1-17.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922,
-    "collapsed": true
+    "width": 244.5110321044922
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -92,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/1-17.md",
+                "file": "Class Notes/Human Computer Interaction/1-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,12 +146,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "af5714b6ab3b078d",
+  "active": "0c75d59e6d8b271f",
   "lastOpenFiles": [
-    "Class Notes/Intro to Machine Learning/1-12.md",
-    "Class Notes/Intro to Machine Learning/1-17.md",
-    "Grad School Research/1-10.md",
     "Class Notes/Human Computer Interaction/1-12.md",
+    "Class Notes/Intro to Machine Learning/1-17.md",
+    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Grad School Research/1-10.md",
     "Senior Project/ShapeWorks notes.md",
     "Images/Pasted image 20220215203442.png",
     "Lit Review/Notes on Papers.md",
