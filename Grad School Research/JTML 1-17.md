@@ -9,3 +9,5 @@
 	- {$Path-to-VTK}\\build\\bin\\Release
 	- {$Path-to-JTA-CMake}\\build\\src\\cost-functions\\Release
 	- {$Path-to-VTK}\\build\\src\\gpu\\Release
+	- If you still get errors about missing DLLs, restart Visual Studio and attempt to run again. 
+- 
