@@ -3,4 +3,9 @@
 	- Seems Qt-related, going to ask Andrew about what portions to install in lab today
 - Rebuilding VTK and installed all of Qt 5.1.1 in order to see if this is a problem - QVTK errors in build process for #JTA-Cmake are all that I'm able to base this off of
 	- Attempting to replace instances of `GetRenderWindow()` with just `renderWindow()` in #drr_tool and #mainscreen cpp files.
-	- 
+	- This worked!
+- For the #ivalue_inl.h file in libtorch - add the line `#undef slots` at the top in order to avoid the errors that arise from that
+- After this, add the paths to the .dlls needed to run JTA
+	- {$Path-to-VTK}\\build\\bin\\Release
+	- {$Path-to-JTA-CMake}\\build\\src\\cost-functions\\Release
+	- {$Path-to-VTK}\\build\\src\\gpu\\Release
