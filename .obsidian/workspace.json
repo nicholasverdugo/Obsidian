@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af5714b6ab3b078d",
+            "id": "be9255827d18408d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-12.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c75d59e6d8b271f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class Notes/Human Computer Interaction/1-17.md",
+                "file": "Class Notes/Intro to Machine Learning/1-17.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/1-17.md",
+                "file": "Class Notes/Intro to Machine Learning/1-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,17 +133,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0c75d59e6d8b271f",
+  "active": "be9255827d18408d",
   "lastOpenFiles": [
-    "Class Notes/Human Computer Interaction/1-12.md",
-    "Class Notes/Intro to Machine Learning/1-17.md",
-    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Class Notes/Intro to Machine Learning/ML 1-12.md",
+    "Class Notes/Human Computer Interaction/HCI 1-12.md",
+    "Class Notes/Human Computer Interaction/HCI 1-10.md",
+    "Class Notes/Human Computer Interaction/HCI 1-17.md",
+    "Grad School Research/1-17.md",
     "Grad School Research/1-10.md",
+    "Class Notes/Intro to Machine Learning/1-17.md",
     "Senior Project/ShapeWorks notes.md",
     "Images/Pasted image 20220215203442.png",
-    "Lit Review/Notes on Papers.md",
-    "Class Notes/Human Computer Interaction/1-10-23.md",
-    "Daily Notes/05_2022/2022-05-06.md",
-    "Daily Notes/06_2022/2022-06-10.md"
+    "Lit Review/Notes on Papers.md"
   ]
 }
