@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e5a30d9a3a842e1",
+        "id": "ee9a463b750ce93a",
         "type": "tabs",
         "children": [
           {
-            "id": "0a4a4ce2f5c83e31",
+            "id": "af5714b6ab3b078d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School Research/1-10.md",
+                "file": "Class Notes/Intro to Machine Learning/1-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922
+    "width": 244.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -91,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School Research/1-10.md",
+                "file": "Class Notes/Intro to Machine Learning/1-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,17 +134,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0a4a4ce2f5c83e31",
+  "active": "af5714b6ab3b078d",
   "lastOpenFiles": [
+    "Class Notes/Intro to Machine Learning/1-12.md",
+    "Class Notes/Intro to Machine Learning/1-17.md",
+    "Grad School Research/1-10.md",
     "Class Notes/Human Computer Interaction/1-12.md",
     "Senior Project/ShapeWorks notes.md",
     "Images/Pasted image 20220215203442.png",
     "Lit Review/Notes on Papers.md",
-    "Grad School Research/1-10.md",
-    "Class Notes/Intro to Machine Learning/1-12.md",
     "Class Notes/Human Computer Interaction/1-10-23.md",
     "Daily Notes/05_2022/2022-05-06.md",
-    "Daily Notes/06_2022/2022-06-10.md",
-    "UFIT Daily Checklists/UFIT 1-5.md"
+    "Daily Notes/06_2022/2022-06-10.md"
   ]
 }
