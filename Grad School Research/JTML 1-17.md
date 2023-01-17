@@ -12,3 +12,4 @@
 	- If you still get errors about missing DLLs, restart Visual Studio and attempt to run again. 
 
 ## Notes on viewer and general VTK ish
+- 
