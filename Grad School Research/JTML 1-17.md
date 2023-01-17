@@ -1,4 +1,5 @@
 - Found OpenCV library (pre-built with an exe) at [this link](https://sourceforge.net/projects/opencvlibrary/)
 - VTK is building correctly as well but #JTA-Cmake is refusing to build without one error
 	- Seems Qt-related, going to ask Andrew about what portions to install in lab today
-	- 
+- Rebuilding VTK and installed all of Qt 5.1.1 in order to see if this is a problem - QVTK errors in build process for #JTA-Cmake are all that I'm able to base this off of
+- 
