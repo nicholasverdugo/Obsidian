@@ -5,9 +5,10 @@
 	- Attempting to replace instances of `GetRenderWindow()` with just `renderWindow()` in #drr_tool and #mainscreen cpp files.
 	- This worked!
 - For the #ivalue_inl.h file in libtorch - add the line `#undef slots` at the top in order to avoid the errors that arise from that
-- After this, add the paths to the .dlls needed to run JTA to system PATH
+- After this, add the paths to the .DLLs needed to run JTA to system PATH
 	- {$Path-to-VTK}\\build\\bin\\Release
 	- {$Path-to-JTA-CMake}\\build\\src\\cost-functions\\Release
 	- {$Path-to-VTK}\\build\\src\\gpu\\Release
 	- If you still get errors about missing DLLs, restart Visual Studio and attempt to run again. 
-- 
+
+## Notes on viewer and general VTK ish
