@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b36eef7c19bbaf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class Notes/Human Computer Interaction/HCI 1-19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/ML 1-19.md",
+                "file": "Class Notes/Human Computer Interaction/HCI 1-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,8 +158,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "92b19db5219bdc9e",
+  "active": "3b36eef7c19bbaf6",
   "lastOpenFiles": [
+    "Class Notes/Intro to Machine Learning/ML 1-19.md",
     "Class Notes/Intro to Machine Learning/ML 1-17.md",
     "Grad School Research/JTML 1-17.md",
     "Grad School Research/JTML 1-10.md",
@@ -156,7 +169,6 @@
     "Class Notes/Human Computer Interaction/HCI 1-10.md",
     "Class Notes/Human Computer Interaction/HCI 1-17.md",
     "Senior Project/ShapeWorks notes.md",
-    "Images/Pasted image 20220215203442.png",
-    "Lit Review/Notes on Papers.md"
+    "Images/Pasted image 20220215203442.png"
   ]
 }
