@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#FA4616",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,7 +134,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d778c2bb478a54a0",
+  "active": "fd60348a256a6709",
   "lastOpenFiles": [
     "Grad School Research/JTML 1-17.md",
     "Class Notes/Intro to Machine Learning/ML 1-19.md",
