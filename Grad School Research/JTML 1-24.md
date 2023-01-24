@@ -2,6 +2,6 @@
 	- Model Selection #GUI not highlighting currently selected model correctly.
 	- UF_Blue: #0021A5
 	- UF_Orange: #FA4616
-	- FIXED! Used a Qt style sheet to set a background color for all items in the list, and then a background color for the selected items. 
+	- FIXED! Used a Qt style sheet to set a background color to default for all items in the list, and then a background color for the selected items. 
 - Attempting to understand issue #31
 	- 
