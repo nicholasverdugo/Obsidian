@@ -1,0 +1,4 @@
+- Going to work on issue #36
+	- Model Selection #GUI not highlighting currently selected model correctly.
+	- UF_Orange: #0021A5
+	- UF_Blue: #FA4616
