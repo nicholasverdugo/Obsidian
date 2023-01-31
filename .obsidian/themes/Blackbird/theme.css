@@ -24,6 +24,13 @@
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
     --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+
+    --text-title-h1:              #fc6e51;
+    --text-title-h2:              #9efc51;
+    --text-title-h3:              #51fcd7;
+    --text-title-h4:              #5162fc;
+    --text-title-h5:              #e851fc;
+    --text-title-h6:              #fc518d;
 }
 
 .theme-light {
