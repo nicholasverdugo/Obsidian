@@ -1,13 +1,23 @@
+:root 
+{
+  --font-size-h1:                  24px;
+  --font-size-h2:                  23px;
+  --font-size-h3:                  22px;
+  --font-size-h4:                  21px;
+  --font-size-h5:                  20px;
+  --font-size-h6:                  19px;
+}
+
+
 /* 1. Colours! Overriding both themes */
 .theme-dark {
     --color-1: #FDF7CD;
     --color-2: #00ECD8;
-    --color-3: #E92741;
+    --color-3: #fc6e51;
     --color-4: #3EC840;
-    --color-5: #E1DC3F;
+    --color-5: #fc6e51;
     --color-6: #418FDD;
     --color-7: #FF9900;
-
     --background-primary: #000000;
     --background-primary-alt: #000000;
     --background-secondary: #000000;
@@ -25,6 +35,19 @@
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
     --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+
+    --text-title-h1:              #fc6e51;
+    --text-title-h2:              #fcd451;
+    --text-title-h3:              #51fcd7;
+    --text-title-h4:              #5162fc;
+    --text-title-h5:              #e851fc;
+    --text-title-h6:              #fc518d;
+    --inline-code:                #51bafc;
+    --code-block:                 #6551fc;
+    --pre-code:                   #44475a;
+    --blockquote-border:          #fc5151;
+    --vim-cursor:                 #ff5555;
+    --border-color:               #2b2727;
 }
 
 .theme-light {
@@ -60,22 +83,53 @@
   color: var(--text-normal);
 }
 
-
-/* 3.1. Headers */
-.cm-s-obsidian .cm-header,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-  overflow: visible;
-  color: var(--color-3);
+strong, .cm-strong {
+  font-weight: 800;
+  color: var(--color-1);
 }
 
-.markdown-preview-view h6 {
-  color: var(--color-3);
+/* 3.1. Headers */
+/* headings for editor and preview */
+.cm-header-1, .markdown-preview-view h1
+{
+  font-weight: 500;
+  font-size: var(--font-size-h1);
+  color: var(--text-title-h1);
+}
+
+.cm-header-2, .markdown-preview-view h2
+{
+  font-weight: 500;
+  font-size: var(--font-size-h2);
+  color: var(--text-title-h2);
+}
+
+.cm-header-3, .markdown-preview-view h3
+{
+  font-weight: 500;
+  font-size: var(--font-size-h3);
+  color: var(--text-title-h3);
+}
+
+.cm-header-4, .markdown-preview-view h4
+{
+  font-weight: 500;
+  font-size: var(--font-size-h4);
+  color: var(--text-title-h4);
+}
+
+.cm-header-5, .markdown-preview-view h5
+{
+  font-weight: 500;
+  font-size: var(--font-size-h5);
+  color: var(--text-title-h5);
+}
+
+.cm-header-6, .markdown-preview-view h6
+{
+  font-weight: 500;
+  font-size: var(--font-size-h6);
+  color: var(--text-title-h6);
 }
 
 /* 3.3. External links */
