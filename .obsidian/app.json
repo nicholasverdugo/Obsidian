@@ -12,6 +12,6 @@
   },
   "showLineNumber": true,
   "lineWrap": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "readableLineLength": false
 }
