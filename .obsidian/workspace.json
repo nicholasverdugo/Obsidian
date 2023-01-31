@@ -11,8 +11,12 @@
             "id": "e82edf820c0daeeb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Grad School Research/JTML 1-31.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -87,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Grad School Research/JTML 1-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,8 +133,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "57298a6bcc79b478",
+  "active": "e82edf820c0daeeb",
   "lastOpenFiles": [
+    "Frozen Sick Notes.md",
+    "Kingfisher for Obsidian.md",
     "Grad School Research/JTML 1-31.md",
     "Class Notes/Intro to Machine Learning/ML 1-31.md",
     "Grad School Research/JTML 1-24.md",
@@ -137,8 +144,6 @@
     "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 1-19.md",
     "Class Notes/Intro to Machine Learning/ML 1-19.md",
-    "Class Notes/Intro to Machine Learning/ML 1-17.md",
-    "Grad School Research/JTML 1-10.md",
-    "Class Notes/Intro to Machine Learning/ML 1-12.md"
+    "Class Notes/Intro to Machine Learning/ML 1-17.md"
   ]
 }
