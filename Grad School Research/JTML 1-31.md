@@ -6,3 +6,4 @@
 
 - Need to clarify this - do we want a coronal plane view that is fixed to the coronal plane of the model itself (moves with the model's movements), or to the coronal orientation respective to the fluoroscopy? (90deg rotation from the camera)
 
+#EdgeDetection can be moved to a clickable dialog in the top menu bar, use the space it takes up for the coronal plane viewer
