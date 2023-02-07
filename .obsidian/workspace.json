@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/ML 2-7.md",
+                "file": "Class Notes/Human Computer Interaction/HCI 1-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Intro to Machine Learning/ML 2-7.md",
+                "file": "Class Notes/Human Computer Interaction/HCI 1-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +135,7 @@
   },
   "active": "d2acc3d26f17430f",
   "lastOpenFiles": [
+    "Class Notes/Intro to Machine Learning/ML 2-7.md",
     "Grad School Research/JTML 1-31.md",
     "Frozen Sick Notes.md",
     "Kingfisher for Obsidian.md",
@@ -143,7 +144,6 @@
     "Grad School Research/JTML 1-17.md",
     "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 1-19.md",
-    "Class Notes/Intro to Machine Learning/ML 1-19.md",
-    "Class Notes/Intro to Machine Learning/ML 1-17.md"
+    "Class Notes/Intro to Machine Learning/ML 1-19.md"
   ]
 }
