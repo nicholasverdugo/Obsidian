@@ -10,4 +10,12 @@
 		- Dependent variable -> response
 	- Measure and quantify
 	- Looking for relationships between variables
+
+# Types of Metrics
+
+- Quantitative
+	- Numbers
+- Qualitative
+	- Not numbers
+	- Not necessarily being subjective
 - 
