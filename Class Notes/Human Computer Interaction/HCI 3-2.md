@@ -21,3 +21,9 @@
 - Scales of measurement
 	- Nominal -> Ordinal -> Interval -> Ratio
 	- name -> name + order -> name + order + interval b/w variables -> name + order + interval + can accomodate absolute zero
+- Metric characteristics
+	- Objective
+		- measured or observed independent of personal thoughts/opinions
+	- Subjective
+		- personally reported, can depend on preference/opinion/emotion
+- 
