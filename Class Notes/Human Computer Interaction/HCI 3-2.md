@@ -26,4 +26,8 @@
 		- measured or observed independent of personal thoughts/opinions
 	- Subjective
 		- personally reported, can depend on preference/opinion/emotion
-- 
+- Experimental design
+	- Between Subjects
+		- Independent conditions 
+		- one participant per condition
+		- particia
