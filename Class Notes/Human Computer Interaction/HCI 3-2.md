@@ -4,4 +4,10 @@
 	- **Fully based off of human senses**
 	- Hypotheses -> Assertions
 - Other styles - rhetorical, reflective
+- Uses the experimental method
+	- This has a focus on causality
+		- Independent variable -> manipulated
+		- Dependent variable -> response
+	- Measure and quantify
+	- Looking for relationships between variables
 - 
