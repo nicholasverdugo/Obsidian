@@ -18,4 +18,6 @@
 - Qualitative
 	- Not numbers
 	- Not necessarily being subjective
-- 
+- Scales of measurement
+	- Nominal -> Ordinal -> Interval -> Ratio
+	- name -> name + order -> name + order + interval b/w variables -> name + order + interval + can accomodate absolute zero
