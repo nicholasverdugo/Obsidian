@@ -16,12 +16,14 @@
             }
           },
           {
-            "id": "29da40ee54ca5801",
+            "id": "559d46c95d18c1f8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.8"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +134,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "29da40ee54ca5801",
+  "active": "559d46c95d18c1f8",
   "lastOpenFiles": [
     "tasks/task-1kr8.md",
     "Daily Notes/2021/2021-09-21.md",
