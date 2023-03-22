@@ -30,4 +30,13 @@
 	- Between Subjects
 		- Independent conditions 
 		- one participant per condition
-		- particia
+		- participant does the task with one level of a variable
+	- within subjects
+		- repeated measures
+		- **everyone does everything**
+		- every participant does the task with all levels of the variable
+		- repeated measures
+		- matched pairs, paired
+	- mixed design
+		- multiple independent variables, where some are controlled within and some are controlled between
+- 

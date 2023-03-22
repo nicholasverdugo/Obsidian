@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2acc3d26f17430f",
+            "id": "6c528f8d1e88f145",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/HCI 1-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d6da74380cbdf61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class Notes/Human Computer Interaction/HCI 3-2.md",
+                "file": "St3d Lab Timesheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922,
-    "collapsed": true
+    "width": 244.5110321044922
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -105,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class Notes/Human Computer Interaction/HCI 3-2.md",
+                "file": "St3d Lab Timesheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,13 +133,15 @@
       "tq-obsidian:tq": false
     }
   },
-  "active": "2d6da74380cbdf61",
+  "active": "6c528f8d1e88f145",
   "lastOpenFiles": [
-    "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 3-2.md",
+    "St3d Lab Timesheet.md",
+    "Class Notes/Intro to Machine Learning/ML 3-7.md",
+    "Class Notes/Intro to Machine Learning/ML 2-7.md",
+    "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 1-19.md",
     "EEL5840 Exam Sheet.md",
-    "Class Notes/Intro to Machine Learning/ML 2-7.md",
     "Grad School Research/JTML 1-31.md",
     "Frozen Sick Notes.md",
     "Kingfisher for Obsidian.md",
