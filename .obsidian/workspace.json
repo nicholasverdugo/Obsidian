@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ee9a463b750ce93a",
+        "id": "2e1d3eb344b46d0d",
         "type": "tabs",
         "children": [
           {
-            "id": "6c528f8d1e88f145",
+            "id": "35812c2510d2da55",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HPG Jupyter Info.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#FA4616",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,19 +78,14 @@
               "type": "calendar",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "b0bab5f2ea2fa721",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "429c34e97fc77bd7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HPG Jupyter Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +103,46 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "tq-obsidian:tq": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "tq-obsidian:tq": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "6c528f8d1e88f145",
+  "active": "35812c2510d2da55",
   "lastOpenFiles": [
+    "HPG Jupyter Info.md",
     "HCI Project 2.md",
     "St3d Lab Timesheet.md",
     "EEL5840 Exam Sheet.md",
-    "Class Notes/Human Computer Interaction/HCI 3-2.md",
     "Class Notes/Intro to Machine Learning/ML 3-7.md",
-    "Class Notes/Intro to Machine Learning/ML 2-7.md",
-    "Class Notes/Human Computer Interaction/HCI 1-24.md",
-    "Class Notes/Human Computer Interaction/HCI 1-19.md",
-    "Grad School Research/JTML 1-31.md",
-    "Frozen Sick Notes.md",
-    "Kingfisher for Obsidian.md",
-    "Class Notes/Intro to Machine Learning/ML 1-31.md",
-    "Grad School Research/JTML 1-24.md",
-    "Grad School Research/JTML 1-17.md",
-    "Class Notes/Intro to Machine Learning/ML 1-19.md"
+    "Class Notes/Human Computer Interaction/HCI 3-2.md",
+    "conflict-files-obsidian-git.md",
+    "tasks/task-1kr8.md",
+    "Daily Notes/2021/2021-09-21.md",
+    "Daily Notes/2021/2021-09-14.md",
+    "Daily Notes/2021/2021-08-31.md",
+    "Untitled 1.md",
+    "UFIT Daily Checklists/UFIT 11-28.md",
+    "Templates/UFIT Planner {{date}}.md",
+    "Templates/Day Planner Template.md",
+    "Templates/Daily Note Template.md",
+    "ZCom MQTT REST Mapping Doc.md"
   ]
 }

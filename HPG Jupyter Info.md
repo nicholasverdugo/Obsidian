@@ -1,0 +1,13 @@
+- For an interactive SLURM session, do the following:
+	- srun <resources> --pty bash -i
+			- i.e. -   srun --ntasks=1 --cpus-per-task=2 --mem=2gb -t 90 --pty bash -i
+		- This will begin an interactive session, once this has started do the following:
+			- ml jupyter
+			- launch_jupyter_notebook
+			- Copy the SSH tunnel command that is pasted into the cmd and run in a new cmd window
+			- ctrl+click the link and sign in using UFID password
+		- squeue -A banks to see status and ID
+		- scancel ${ID} to stop the session
+		- https://help.rc.ufl.edu/doc/Jupyter_Notebooks 
+		- https://help.rc.ufl.edu/doc/SLURM_Commands#Interactive_Session 
+		- https://help.rc.ufl.edu/doc/UFRC_Help_and_Documentation 
