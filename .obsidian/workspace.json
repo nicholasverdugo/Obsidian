@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ee9a463b750ce93a",
+        "id": "72e90566c42e9adb",
         "type": "tabs",
         "children": [
           {
-            "id": "6c528f8d1e88f145",
+            "id": "4439b87eb86bd4c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "St3d Lab Timesheet.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -52,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "dee1f8ec40d8913b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -87,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "St3d Lab Timesheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,18 +141,19 @@
       "tq-obsidian:tq": false
     }
   },
-  "active": "6c528f8d1e88f145",
+  "active": "4439b87eb86bd4c8",
   "lastOpenFiles": [
+    "RPI Bug Out Box Development.md",
+    "Frozen Sick Notes.md",
     "HCI Project 2.md",
-    "St3d Lab Timesheet.md",
     "EEL5840 Exam Sheet.md",
+    "St3d Lab Timesheet.md",
     "Class Notes/Human Computer Interaction/HCI 3-2.md",
     "Class Notes/Intro to Machine Learning/ML 3-7.md",
     "Class Notes/Intro to Machine Learning/ML 2-7.md",
     "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 1-19.md",
     "Grad School Research/JTML 1-31.md",
-    "Frozen Sick Notes.md",
     "Kingfisher for Obsidian.md",
     "Class Notes/Intro to Machine Learning/ML 1-31.md",
     "Grad School Research/JTML 1-24.md",
