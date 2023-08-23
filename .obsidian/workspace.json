@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "72e90566c42e9adb",
+        "id": "ad27790722f7ba78",
         "type": "tabs",
         "children": [
           {
-            "id": "4439b87eb86bd4c8",
+            "id": "e85c681220941e58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "St3d Lab Timesheet.md",
+                "file": "EEL6935/8-23.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#FA4616",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922
+    "width": 244.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a679ee0cd863f6b2",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "St3d Lab Timesheet.md",
+                "file": "EEL6935/8-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,24 +143,38 @@
       "tq-obsidian:tq": false
     }
   },
-  "active": "57298a6bcc79b478",
+  "active": "fd60348a256a6709",
   "lastOpenFiles": [
-    "HPG Jupyter Info.md",
+    "Grad School Research/JTML 1-31.md",
+    "Grad School Research/JTML 1-24.md",
+    "Grad School Research/JTML 1-10.md",
+    "Grad School Research/JTML 1-17.md",
+    "EEL6935/8-23.md",
+    "Images/Human_anatomy_planes,_labeled.svg.webp",
+    "KCL/KCL Meeting Notes.md",
+    "Pictus AI Video Meeting Notes.md",
+    "Images/Pasted image 20230711122928.png",
+    "EEL6935",
+    "KCL",
+    "Garm Backstory.md",
+    "Images/Pasted image 20230711134822.png",
+    "pain.md",
+    "Old Stuff/JTML-Log OLD (7-26;8-11).md",
+    "JTML Summer/6-1.md",
     "RPI Bug Out Box Development.md",
+    "JTML Summer",
+    "HPG Jupyter Info.md",
+    "St3d Lab Timesheet.md",
     "Frozen Sick Notes.md",
     "HCI Project 2.md",
     "EEL5840 Exam Sheet.md",
-    "St3d Lab Timesheet.md",
     "Class Notes/Human Computer Interaction/HCI 3-2.md",
     "Class Notes/Intro to Machine Learning/ML 3-7.md",
     "Class Notes/Intro to Machine Learning/ML 2-7.md",
     "Class Notes/Human Computer Interaction/HCI 1-24.md",
     "Class Notes/Human Computer Interaction/HCI 1-19.md",
-    "Grad School Research/JTML 1-31.md",
     "Kingfisher for Obsidian.md",
     "Class Notes/Intro to Machine Learning/ML 1-31.md",
-    "Grad School Research/JTML 1-24.md",
-    "Grad School Research/JTML 1-17.md",
     "Class Notes/Intro to Machine Learning/ML 1-19.md"
   ]
 }

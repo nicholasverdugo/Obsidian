@@ -1,0 +1,7 @@
+- Image processing in arthroscopy
+	- Hook probe is used in the surgery
+- They want to to segment the probe's pose
+	- Use it to overlay a virtual ruler
+- They initially wanted to use IMUs but that was discouraged by Chris
+- Expand onto other types of instruments
+- 
